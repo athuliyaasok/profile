@@ -13,6 +13,10 @@ content="Athuliya Asokakumar — Operations Executive & Process Specialist speci
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+ 
+   <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
 <style>
 
@@ -356,7 +360,7 @@ nav {
     display: grid;
     place-items: center;
     font-family: "Playfair Display";
-    font-size: 40px;
+    font-size: 45px;
     background: rgba(255,255,255,.07);
 }
 
@@ -755,9 +759,29 @@ section {
     box-shadow: var(--shadow);
 }
 
-.tool-icon {
-    font-size: 27px;
-    margin-bottom: 10px;
+.tool-icon,
+.tool > i {
+    font-size: 42px;
+    margin-bottom: 14px;
+    display: block;
+}
+
+.tool span {
+    display: block;
+    font-size: 12px;
+}
+
+.custom-tool-icon {
+    width: 42px;
+    height: 42px;
+    margin: 0 auto 14px;
+    border-radius: 12px;
+    background: var(--sage-light);
+    color: var(--sage-dark);
+    display: grid;
+    place-items: center;
+    font-size: 23px;
+    font-weight: 700;
 }
 
 
@@ -1658,39 +1682,39 @@ footer {
             Tools & Software
         </div>
 
-        <div class="tools-grid">
+<div class="tools-grid">
 
-            <div class="tool">
-                <div class="tool-icon">▦</div>
-                Microsoft Excel
-            </div>
+    <div class="tool">
+        <i class="devicon-microsoft-excel-plain colored"></i>
+        <span>Microsoft Excel</span>
+    </div>
 
-            <div class="tool">
-                <div class="tool-icon">W</div>
-                Microsoft Word
-            </div>
+    <div class="tool">
+        <i class="devicon-microsoft-word-plain colored"></i>
+        <span>Microsoft Word</span>
+    </div>
 
-            <div class="tool">
-                <div class="tool-icon">P</div>
-                PowerPoint
-            </div>
+    <div class="tool">
+        <i class="devicon-microsoftpowerpoint-plain colored"></i>
+        <span>PowerPoint</span>
+    </div>
 
-            <div class="tool">
-                <div class="tool-icon">◎</div>
-                Zoho CRM
-            </div>
+    <div class="tool">
+        <i class="devicon-notion-plain"></i>
+        <span>Notion</span>
+    </div>
 
-            <div class="tool">
-                <div class="tool-icon">N</div>
-                Notion
-            </div>
+    <div class="tool">
+        <i class="devicon-canva-original"></i>
+        <span>Canva</span>
+    </div>
 
-            <div class="tool">
-                <div class="tool-icon">C</div>
-                Canva
-            </div>
+    <div class="tool">
+        <div class="custom-tool-icon">Z</div>
+        <span>Zoho CRM</span>
+    </div>
 
-        </div>
+</div>
 
     </div>
 
