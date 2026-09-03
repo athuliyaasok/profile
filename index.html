@@ -924,6 +924,72 @@ section {
 
 }
 
+/* =========================================================
+   ABOUT IMAGE
+========================================================= */
+
+.about-content {
+    padding-top: 5px;
+}
+
+.about-visual {
+    position: relative;
+}
+
+.about-image-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+    height: 480px;
+    border-radius: 30px;
+    overflow: hidden;
+    background: var(--surface-2);
+    box-shadow: var(--shadow);
+}
+
+.about-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform .7s ease;
+}
+
+.about-image-wrapper:hover img {
+    transform: scale(1.05);
+}
+
+.about-image-label {
+    position: absolute;
+    bottom: 18px;
+    left: 18px;
+    right: 18px;
+
+    padding: 14px 17px;
+
+    border-radius: 16px;
+
+    background:
+        rgba(251,250,246,.90);
+
+    backdrop-filter: blur(12px);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-image-label span {
+    font-size: 9px;
+    letter-spacing: .15em;
+    color: var(--muted);
+}
+
+.about-image-label strong {
+    font-size: 13px;
+    color: var(--sage-dark);
+}
 
 /* =========================================================
    CAPABILITIES
@@ -2388,20 +2454,41 @@ footer {
 
 <section id="about" class="about">
 
-
 <div class="container">
-
 
     <div class="about-grid reveal">
 
+        <!-- ABOUT IMAGE -->
 
-        <div>
+        <div class="about-visual">
 
+            <div class="about-image-wrapper">
+
+                <img
+                    src="images/about.jpg"
+                    alt="Athuliya Asokakumar"
+                >
+
+                <div class="about-image-label">
+
+                    <span>BASED IN</span>
+
+                    <strong>UAE</strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ABOUT CONTENT -->
+
+        <div class="about-content">
 
             <div class="section-label">
                 About Me
             </div>
-
 
             <h2 class="section-heading">
 
@@ -2412,56 +2499,52 @@ footer {
             </h2>
 
 
-        </div>
+            <div class="about-text">
+
+                <p>
+
+                    I’m an operations professional
+                    with an engineering background
+                    and experience across education,
+                    student success, customer
+                    operations and administrative
+                    environments.
+
+                </p>
 
 
+                <p>
 
-        <div class="about-text">
+                    My strength is taking something
+                    that feels
+                    <strong>
+                        unstructured, repetitive or
+                        difficult to track
+                    </strong>
 
+                    and turning it into a process
+                    that is easier to understand,
+                    monitor and execute.
 
-            <p>
-
-                I’m an operations professional
-                with an engineering background
-                and experience across education,
-                student success, customer
-                operations and administrative
-                environments.
-
-            </p>
-
-
-            <p>
-
-                My strength is taking something
-                that feels
-                <strong>
-                    unstructured, repetitive or
-                    difficult to track
-                </strong>
-
-                and turning it into a process
-                that is easier to understand,
-                monitor and execute.
-
-            </p>
+                </p>
 
 
-            <p>
+                <p>
 
-                I work at the intersection of
-                people, processes and systems —
-                coordinating stakeholders,
-                tracking resources, managing
-                vendors and creating reporting
-                structures that give teams better
-                visibility.
+                    I work at the intersection of
+                    people, processes and systems —
+                    coordinating stakeholders,
+                    tracking resources, managing
+                    vendors and creating reporting
+                    structures that give teams
+                    better visibility.
 
-            </p>
+                </p>
 
+
+            </div>
 
         </div>
-
 
     </div>
 
@@ -2469,118 +2552,78 @@ footer {
 
     <!-- CAPABILITIES -->
 
-
     <div class="capability-grid">
-
 
         <div class="capability reveal">
 
-
-            <div class="icon">
-                ⌘
-            </div>
-
+            <div class="icon">⌘</div>
 
             <h3>
                 Operations & Workflow
             </h3>
 
-
             <p>
-
                 Process management,
                 resource tracking and
                 timeline management.
-
             </p>
-
 
         </div>
 
 
-
         <div class="capability reveal">
 
-
-            <div class="icon">
-                ◎
-            </div>
-
+            <div class="icon">◎</div>
 
             <h3>
                 Vendor & Stakeholders
             </h3>
 
-
             <p>
-
                 External vendor alignment,
                 coordination and stakeholder
                 communication.
-
             </p>
-
 
         </div>
 
 
-
         <div class="capability reveal">
 
-
-            <div class="icon">
-                ▣
-            </div>
-
+            <div class="icon">▣</div>
 
             <h3>
                 Systems & Reporting
             </h3>
 
-
             <p>
-
                 Excel dashboards,
                 CRM management and
                 operational reporting.
-
             </p>
-
 
         </div>
 
 
-
         <div class="capability reveal">
 
-
-            <div class="icon">
-                ↗
-            </div>
-
+            <div class="icon">↗</div>
 
             <h3>
                 Continuous Improvement
             </h3>
 
-
             <p>
-
                 Finding gaps, improving
                 consistency and making
                 workflows more efficient.
-
             </p>
-
 
         </div>
 
-
     </div>
 
-
 </div>
-
 
 </section>
 
