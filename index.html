@@ -3,2201 +3,2950 @@
 
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
-<title>Athuliya Asokakumar | Operations Executive</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-<meta name="description"
-content="Athuliya Asokakumar — Operations Executive & Process Specialist specializing in workflow management, stakeholder coordination, reporting systems and process improvement.">
+    <meta name="description"
+          content="Athuliya Asokakumar — Operations Executive & Process Specialist specializing in workflow management, stakeholder coordination, reporting systems and process improvement.">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="author"
+          content="Athuliya Asokakumar">
 
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <title>
+        Athuliya Asokakumar | Operations Executive
+    </title>
 
 
-<style>
+    <!-- =====================================================
+         GOOGLE FONTS
+    ====================================================== -->
 
-/* =========================================================
-   ROOT
-========================================================= */
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
 
-:root {
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
 
-    --bg: #f5f3ed;
-    --surface: #fbfaf6;
-    --surface-2: #eeece3;
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
+          rel="stylesheet">
 
-    --sage: #7b8b62;
-    --sage-dark: #5d6d48;
-    --sage-light: #dce2d0;
 
-    --text: #252621;
-    --muted: #70736a;
+    <!-- =====================================================
+         ICONS
+    ====================================================== -->
 
-    --border: rgba(37,38,33,.10);
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-    --white: #ffffff;
 
-    --shadow:
-        0 20px 60px rgba(40,45,32,.08);
+    <!-- =====================================================
+         CSS
+    ====================================================== -->
 
-}
+    <style>
 
+        /* =====================================================
+           ROOT
+        ====================================================== */
 
-/* =========================================================
-   RESET
-========================================================= */
+        :root {
 
-* {
+            --bg: #f5f3ed;
 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+            --surface: #fbfaf6;
 
-}
+            --surface-2: #eeece3;
 
-html {
+            --sage: #7b8b62;
 
-    scroll-behavior: smooth;
+            --sage-dark: #5d6d48;
 
-}
+            --sage-light: #dce2d0;
 
-body {
+            --text: #252621;
 
-    background: var(--bg);
-    color: var(--text);
+            --muted: #70736a;
 
-    font-family: "DM Sans", sans-serif;
+            --border: rgba(37, 38, 33, .10);
 
-    line-height: 1.6;
+            --white: #ffffff;
 
-    overflow-x: hidden;
+            --shadow:
+                0 20px 60px rgba(48, 55, 39, .10);
 
-}
+            --shadow-soft:
+                0 10px 35px rgba(48, 55, 39, .07);
 
-a {
+        }
 
-    color: inherit;
-    text-decoration: none;
 
-}
+        /* =====================================================
+           RESET
+        ====================================================== */
 
-button {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    font-family: inherit;
 
-}
+        html {
+            scroll-behavior: smooth;
+        }
 
 
-/* =========================================================
-   CURSOR GLOW
-========================================================= */
+        body {
 
-.cursor-glow {
+            font-family:
+                "DM Sans",
+                sans-serif;
 
-    position: fixed;
+            background:
+                var(--bg);
 
-    width: 300px;
-    height: 300px;
+            color:
+                var(--text);
 
-    border-radius: 50%;
+            line-height:
+                1.7;
 
-    background:
-        radial-gradient(
-            circle,
-            rgba(123,139,98,.12),
-            transparent 65%
-        );
+            overflow-x:
+                hidden;
 
-    pointer-events: none;
+        }
 
-    transform: translate(-50%, -50%);
 
-    z-index: 0;
+        img {
+            max-width: 100%;
+        }
 
-}
 
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
 
-/* =========================================================
-   CONTAINER
-========================================================= */
 
-.container {
+        button {
+            font-family: inherit;
+        }
 
-    width: min(1120px, 90%);
 
-    margin: auto;
+        ::selection {
+            background: var(--sage-light);
+            color: var(--sage-dark);
+        }
 
-    position: relative;
 
-    z-index: 2;
+        /* =====================================================
+           CUSTOM SCROLLBAR
+        ====================================================== */
 
-}
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
 
+        ::-webkit-scrollbar-track {
+            background: var(--bg);
+        }
 
-/* =========================================================
-   NAVIGATION
-========================================================= */
+        ::-webkit-scrollbar-thumb {
+            background: var(--sage);
+            border-radius: 20px;
+        }
 
-nav {
 
-    position: fixed;
+        /* =====================================================
+           CONTAINER
+        ====================================================== */
 
-    top: 20px;
+        .container {
 
-    left: 50%;
+            width: min(1180px, 90%);
 
-    transform: translateX(-50%);
+            margin:
+                0 auto;
 
-    width: min(1080px, 92%);
+        }
 
-    padding: 12px 18px;
 
-    background:
-        rgba(251,250,246,.86);
+        /* =====================================================
+           NAVBAR
+        ====================================================== */
 
-    backdrop-filter: blur(18px);
+        .navbar {
 
-    border:
-        1px solid var(--border);
+            position:
+                fixed;
 
-    border-radius: 50px;
+            top:
+                18px;
 
-    display: flex;
+            left:
+                50%;
 
-    align-items: center;
+            transform:
+                translateX(-50%);
 
-    justify-content: space-between;
+            width:
+                min(1120px, 92%);
 
-    z-index: 1000;
+            z-index:
+                1000;
 
-    box-shadow:
-        0 10px 30px rgba(0,0,0,.04);
+            padding:
+                10px 12px;
 
-}
+            background:
+                rgba(251, 250, 246, .88);
 
+            backdrop-filter:
+                blur(18px);
 
-.logo {
+            -webkit-backdrop-filter:
+                blur(18px);
 
-    display: flex;
+            border:
+                1px solid var(--border);
 
-    align-items: center;
+            border-radius:
+                50px;
 
-    gap: 10px;
+            box-shadow:
+                0 10px 35px rgba(40, 45, 35, .06);
 
-    font-weight: 700;
+        }
 
-}
 
+        .nav-inner {
 
-.logo-mark {
+            display:
+                flex;
 
-    width: 36px;
-    height: 36px;
+            align-items:
+                center;
 
-    border-radius: 50%;
+            justify-content:
+                space-between;
 
-    background: var(--sage);
+        }
 
-    color: white;
 
-    display: grid;
+        .logo {
 
-    place-items: center;
+            display:
+                flex;
 
-    font-family: "Playfair Display", serif;
+            align-items:
+                center;
 
-    font-size: 14px;
+            gap:
+                10px;
 
-}
+            padding:
+                8px 14px;
 
+            font-weight:
+                700;
 
-.logo span {
+            font-size:
+                14px;
 
-    font-size: 12px;
+            letter-spacing:
+                .02em;
 
-    letter-spacing: .04em;
+        }
 
-}
 
+        .logo-mark {
 
-.nav-links {
+            width:
+                32px;
 
-    display: flex;
+            height:
+                32px;
 
-    align-items: center;
+            border-radius:
+                50%;
 
-    gap: 26px;
+            display:
+                flex;
 
-}
+            align-items:
+                center;
 
+            justify-content:
+                center;
 
-.nav-links a {
+            background:
+                var(--sage-dark);
 
-    font-size: 12px;
+            color:
+                white;
 
-    color: var(--muted);
+            font-family:
+                "Playfair Display",
+                serif;
 
-    transition: .3s ease;
+            font-size:
+                14px;
 
-}
+        }
 
 
-.nav-links a:hover {
+        .nav-links {
 
-    color: var(--sage-dark);
+            display:
+                flex;
 
-}
+            align-items:
+                center;
 
+            gap:
+                4px;
 
-.nav-btn {
+            list-style:
+                none;
 
-    padding: 9px 16px;
+        }
 
-    background: var(--sage);
 
-    color: white !important;
+        .nav-links a {
 
-    border-radius: 30px;
+            display:
+                block;
 
-}
+            padding:
+                9px 14px;
 
+            border-radius:
+                30px;
 
-.nav-btn:hover {
+            font-size:
+                12px;
 
-    background: var(--sage-dark);
+            color:
+                var(--muted);
 
-    transform: translateY(-2px);
+            transition:
+                all .3s ease;
 
-}
+        }
 
 
-.menu-btn {
+        .nav-links a:hover {
 
-    display: none;
+            background:
+                var(--sage-light);
 
-    border: none;
+            color:
+                var(--sage-dark);
 
-    background: transparent;
+        }
 
-    font-size: 22px;
 
-    cursor: pointer;
+        .nav-cta {
 
-}
+            background:
+                var(--sage-dark) !important;
 
+            color:
+                white !important;
 
-/* =========================================================
-   HERO
-========================================================= */
+        }
 
-.hero {
 
-    min-height: 100vh;
+        .nav-cta:hover {
 
-    padding:
-        130px 0
-        80px;
+            background:
+                var(--sage) !important;
 
-    display: grid;
+            transform:
+                translateY(-1px);
 
-    grid-template-columns:
-        1.05fr
-        .95fr;
+        }
 
-    gap: 70px;
 
-    align-items: center;
+        .menu-toggle {
 
-}
+            display:
+                none;
 
+            border:
+                none;
 
-/* HERO CONTENT */
+            background:
+                var(--sage-light);
 
-.hero-content {
+            width:
+                40px;
 
-    animation:
-        heroIn 1s ease forwards;
+            height:
+                40px;
 
-}
+            border-radius:
+                50%;
 
+            cursor:
+                pointer;
 
-.eyebrow {
+            color:
+                var(--sage-dark);
 
-    display: inline-flex;
+        }
 
-    align-items: center;
 
-    gap: 8px;
+        /* =====================================================
+           HERO
+        ====================================================== */
 
-    padding: 7px 12px;
+        .hero {
 
-    background:
-        var(--sage-light);
+            min-height:
+                100vh;
 
-    color:
-        var(--sage-dark);
+            padding:
+                150px 0 80px;
 
-    border-radius: 30px;
+            display:
+                flex;
 
-    font-size: 10px;
+            align-items:
+                center;
 
-    letter-spacing: .12em;
+        }
 
-    text-transform: uppercase;
 
-    font-weight: 700;
+        .hero-grid {
 
-    margin-bottom: 24px;
+            display:
+                grid;
 
-}
+            grid-template-columns:
+                1fr 1fr;
 
+            gap:
+                70px;
 
-.eyebrow::before {
+            align-items:
+                center;
 
-    content: "";
+        }
 
-    width: 6px;
-    height: 6px;
 
-    background:
-        var(--sage);
+        .eyebrow {
 
-    border-radius: 50%;
+            display:
+                inline-flex;
 
-    animation:
-        pulse 2s infinite;
+            align-items:
+                center;
 
-}
+            gap:
+                8px;
 
+            margin-bottom:
+                24px;
 
-.hero h1 {
+            padding:
+                7px 12px;
 
-    font-family:
-        "Playfair Display",
-        serif;
+            border:
+                1px solid var(--border);
 
-    font-size:
-        clamp(55px, 7vw, 88px);
+            border-radius:
+                30px;
 
-    line-height: .96;
+            background:
+                rgba(251, 250, 246, .65);
 
-    font-weight: 600;
+            color:
+                var(--sage-dark);
 
-    letter-spacing: -.05em;
+            font-size:
+                10px;
 
-    max-width: 650px;
+            letter-spacing:
+                .13em;
 
-}
+            text-transform:
+                uppercase;
 
+        }
 
-.hero h1 em {
 
-    color:
-        var(--sage);
+        .eyebrow::before {
 
-    font-style: normal;
+            content:
+                "";
 
-}
+            width:
+                7px;
 
+            height:
+                7px;
 
-.hero-description {
+            border-radius:
+                50%;
 
-    max-width: 570px;
+            background:
+                var(--sage);
 
-    margin-top: 28px;
+            box-shadow:
+                0 0 0 5px var(--sage-light);
 
-    color:
-        var(--muted);
+        }
 
-    font-size: 16px;
 
-    font-weight: 300;
+        .hero h1 {
 
-}
+            font-family:
+                "Playfair Display",
+                serif;
 
+            font-size:
+                clamp(55px, 7vw, 92px);
 
-.hero-actions {
+            line-height:
+                .98;
 
-    display: flex;
+            font-weight:
+                500;
 
-    gap: 12px;
+            letter-spacing:
+                -.045em;
 
-    margin-top: 32px;
+            margin-bottom:
+                30px;
 
-    flex-wrap: wrap;
+        }
 
-}
 
+        .hero h1 span {
 
-.btn {
+            display:
+                block;
 
-    display: inline-flex;
+            color:
+                var(--sage-dark);
 
-    align-items: center;
+            font-style:
+                italic;
 
-    gap: 8px;
+        }
 
-    padding: 13px 20px;
 
-    border-radius: 30px;
+        .hero-description {
 
-    border:
-        1px solid var(--border);
+            max-width:
+                570px;
 
-    font-size: 12px;
+            font-size:
+                17px;
 
-    font-weight: 600;
+            color:
+                var(--muted);
 
-    transition: .3s ease;
+            margin-bottom:
+                35px;
 
-}
+        }
 
 
-.btn-primary {
+        .hero-buttons {
 
-    background:
-        var(--sage);
+            display:
+                flex;
 
-    color: white;
+            gap:
+                12px;
 
-    border-color:
-        var(--sage);
+            flex-wrap:
+                wrap;
 
-}
+        }
 
 
-.btn-primary:hover {
+        .btn {
 
-    background:
-        var(--sage-dark);
+            display:
+                inline-flex;
 
-    transform:
-        translateY(-3px);
+            align-items:
+                center;
 
-}
+            justify-content:
+                center;
 
+            gap:
+                9px;
 
-.btn-secondary {
+            padding:
+                13px 20px;
 
-    background:
-        var(--surface);
+            border-radius:
+                40px;
 
-}
+            font-size:
+                12px;
 
+            font-weight:
+                600;
 
-.btn-secondary:hover {
+            transition:
+                all .3s ease;
 
-    border-color:
-        var(--sage);
+            cursor:
+                pointer;
 
-    transform:
-        translateY(-3px);
+        }
 
-}
 
+        .btn-primary {
 
-/* =========================================================
-   HERO VISUAL
-========================================================= */
+            background:
+                var(--sage-dark);
 
-.hero-visual {
+            color:
+                white;
 
-    position: relative;
+            box-shadow:
+                0 10px 25px rgba(93, 109, 72, .18);
 
-    height: 560px;
+        }
 
-}
 
+        .btn-primary:hover {
 
-.visual-card {
+            transform:
+                translateY(-3px);
 
-    position: absolute;
+            background:
+                var(--sage);
 
-    inset: 0;
+            box-shadow:
+                0 15px 30px rgba(93, 109, 72, .22);
 
-    border-radius: 40px;
+        }
 
-    overflow: hidden;
 
-    background:
-        var(--sage-dark);
+        .btn-secondary {
 
-    box-shadow:
-        var(--shadow);
+            border:
+                1px solid var(--border);
 
-}
+            background:
+                var(--surface);
 
+            color:
+                var(--text);
 
-/* FULL PROFILE IMAGE */
+        }
 
-.profile-image {
 
-    position: absolute;
+        .btn-secondary:hover {
 
-    inset: 0;
+            transform:
+                translateY(-3px);
 
-    width: 100%;
-    height: 100%;
+            border-color:
+                var(--sage);
 
-    object-fit: cover;
+            color:
+                var(--sage-dark);
 
-    object-position: center;
+        }
 
-    display: block;
 
-    transition:
-        transform .8s ease;
+        /* =====================================================
+           HERO IMAGE
+        ====================================================== */
 
-}
+        .hero-visual {
 
+            position:
+                relative;
 
-.visual-card:hover .profile-image {
+            height:
+                560px;
 
-    transform:
-        scale(1.035);
+        }
 
-}
 
+        .visual-card {
 
-/* IMAGE OVERLAY */
+            position:
+                absolute;
 
-.visual-overlay {
+            inset:
+                0;
 
-    position: absolute;
+            border-radius:
+                40px;
 
-    inset: 0;
+            overflow:
+                hidden;
 
-    background:
-        linear-gradient(
-            to bottom,
-            rgba(25,35,22,.10),
-            rgba(25,35,22,.08) 40%,
-            rgba(20,28,18,.65)
-        );
+            background:
+                var(--sage-dark);
 
-}
+            box-shadow:
+                var(--shadow);
 
+        }
 
-/* VISUAL CONTENT */
 
-.visual-content {
+        .profile-image {
 
-    position: absolute;
+            position:
+                absolute;
 
-    inset: 30px;
+            inset:
+                0;
 
-    z-index: 3;
+            width:
+                100%;
 
-    color: white;
+            height:
+                100%;
 
-    display: flex;
+            object-fit:
+                cover;
 
-    flex-direction: column;
+            object-position:
+                center;
 
-    justify-content: space-between;
+            display:
+                block;
 
-}
+            transition:
+                transform .8s ease;
 
+        }
 
-.visual-top {
 
-    display: flex;
+        .visual-card:hover .profile-image {
 
-    justify-content: space-between;
+            transform:
+                scale(1.035);
 
-    align-items: center;
+        }
 
-    gap: 15px;
 
-    font-size: 10px;
+        .visual-overlay {
 
-    letter-spacing: .1em;
+            position:
+                absolute;
 
-}
+            inset:
+                0;
 
+            background:
+                linear-gradient(
+                    to bottom,
+                    rgba(25, 35, 22, .05),
+                    rgba(25, 35, 22, .10) 40%,
+                    rgba(20, 28, 18, .72)
+                );
 
-.status {
+        }
 
-    display: inline-flex;
 
-    align-items: center;
+        .visual-top {
 
-    gap: 7px;
+            position:
+                absolute;
 
-    padding:
-        8px 12px;
+            top:
+                25px;
 
-    background:
-        rgba(255,255,255,.14);
+            left:
+                25px;
 
-    backdrop-filter:
-        blur(12px);
+            right:
+                25px;
 
-    border:
-        1px solid rgba(255,255,255,.18);
+            display:
+                flex;
 
-    border-radius: 30px;
+            justify-content:
+                space-between;
 
-    font-size: 9px;
+            align-items:
+                center;
 
-    letter-spacing: .03em;
+            color:
+                white;
 
-}
+            z-index:
+                3;
 
+        }
 
-.status-dot {
 
-    width: 6px;
-    height: 6px;
+        .visual-name {
 
-    border-radius: 50%;
+            font-size:
+                10px;
 
-    background:
-        var(--sage-light);
+            letter-spacing:
+                .18em;
 
-    animation:
-        pulse 2s infinite;
+            font-weight:
+                600;
 
-}
+        }
 
 
-/* CENTER */
+        .available {
 
-.visual-center {
+            display:
+                flex;
 
-    text-align: center;
+            align-items:
+                center;
 
-}
+            gap:
+                8px;
 
+            padding:
+                7px 11px;
 
-.visual-center h3 {
+            border-radius:
+                30px;
 
-    font-family:
-        "Playfair Display",
-        serif;
+            background:
+                rgba(255, 255, 255, .14);
 
-    font-size: 34px;
+            backdrop-filter:
+                blur(12px);
 
-    text-shadow:
-        0 3px 18px rgba(0,0,0,.3);
+            font-size:
+                9px;
 
-}
+        }
 
 
-.visual-center p {
+        .available::before {
 
-    margin-top: 5px;
+            content:
+                "";
 
-    font-size: 11px;
+            width:
+                6px;
 
-    letter-spacing: .08em;
+            height:
+                6px;
 
-    opacity: .85;
+            background:
+                #dce8c8;
 
-}
+            border-radius:
+                50%;
 
+            box-shadow:
+                0 0 0 4px rgba(220, 232, 200, .15);
 
-/* BOTTOM */
+        }
 
-.visual-bottom {
 
-    display: flex;
+        .visual-bottom {
 
-    justify-content: space-between;
+            position:
+                absolute;
 
-    gap: 15px;
+            left:
+                30px;
 
-    font-size: 9px;
+            right:
+                30px;
 
-    letter-spacing: .13em;
+            bottom:
+                28px;
 
-    opacity: .8;
+            color:
+                white;
 
-}
+            z-index:
+                3;
 
+        }
 
-/* =========================================================
-   FLOATING STATS
-========================================================= */
 
-.hero-stat {
+        .visual-role {
 
-    position: absolute;
+            font-size:
+                11px;
 
-    padding:
-        15px 18px;
+            text-transform:
+                uppercase;
 
-    background:
-        rgba(251,250,246,.96);
+            letter-spacing:
+                .18em;
 
-    backdrop-filter:
-        blur(15px);
+            opacity:
+                .7;
 
-    border:
-        1px solid var(--border);
+            margin-bottom:
+                7px;
 
-    border-radius: 17px;
+        }
 
-    box-shadow:
-        0 15px 40px rgba(0,0,0,.12);
 
-    z-index: 5;
+        .visual-title {
 
-}
+            font-family:
+                "Playfair Display",
+                serif;
 
+            font-size:
+                32px;
 
-.hero-stat strong {
+            line-height:
+                1.15;
 
-    display: block;
+            margin-bottom:
+                20px;
 
-    font-family:
-        "Playfair Display",
-        serif;
+        }
 
-    font-size: 23px;
 
-    line-height: 1.1;
+        .visual-meta {
 
-    color:
-        var(--sage-dark);
+            display:
+                flex;
 
-}
+            justify-content:
+                space-between;
 
+            gap:
+                20px;
 
-.hero-stat span {
+            padding-top:
+                15px;
 
-    display: block;
+            border-top:
+                1px solid rgba(255,255,255,.2);
 
-    margin-top: 4px;
+        }
 
-    color:
-        var(--muted);
 
-    font-size: 9px;
+        .visual-meta div {
 
-    white-space: nowrap;
+            display:
+                flex;
 
-}
+            flex-direction:
+                column;
 
+        }
 
-.stat-one {
 
-    left: -30px;
+        .visual-meta span {
 
-    bottom: 70px;
+            font-size:
+                8px;
 
-    animation:
-        float 5s ease-in-out infinite;
+            letter-spacing:
+                .12em;
 
-}
+            opacity:
+                .55;
 
+            text-transform:
+                uppercase;
 
-.stat-two {
+        }
 
-    right: -25px;
 
-    top: 75px;
+        .visual-meta strong {
 
-    animation:
-        float 6s ease-in-out infinite reverse;
+            font-size:
+                11px;
 
-}
+            font-weight:
+                500;
 
+            margin-top:
+                3px;
 
-/* =========================================================
-   SECTIONS
-========================================================= */
+        }
 
-section {
 
-    padding:
-        110px 0;
+        /* =====================================================
+           FLOATING STATS
+        ====================================================== */
 
-}
+        .floating-stat {
 
+            position:
+                absolute;
 
-.section-label {
+            padding:
+                15px 18px;
 
-    color:
-        var(--sage-dark);
+            background:
+                rgba(251, 250, 246, .92);
 
-    font-size: 10px;
+            backdrop-filter:
+                blur(15px);
 
-    text-transform: uppercase;
+            border:
+                1px solid rgba(255,255,255,.55);
 
-    letter-spacing: .18em;
+            border-radius:
+                18px;
 
-    font-weight: 700;
+            box-shadow:
+                var(--shadow-soft);
 
-    margin-bottom: 17px;
+            z-index:
+                10;
 
-}
+        }
 
 
-.section-heading {
+        .floating-stat.one {
 
-    font-family:
-        "Playfair Display",
-        serif;
+            left:
+                -40px;
 
-    font-size:
-        clamp(40px, 5vw, 64px);
+            top:
+                110px;
 
-    line-height: 1.04;
+        }
 
-    letter-spacing: -.04em;
 
-    max-width: 650px;
+        .floating-stat.two {
 
-}
+            right:
+                -35px;
 
+            bottom:
+                110px;
 
-.section-intro {
+        }
 
-    margin-top: 20px;
 
-    max-width: 600px;
+        .floating-number {
 
-    color:
-        var(--muted);
+            display:
+                block;
 
-    font-size: 14px;
+            font-family:
+                "Playfair Display",
+                serif;
 
-}
+            font-size:
+                25px;
 
+            color:
+                var(--sage-dark);
 
-/* =========================================================
-   ABOUT
-========================================================= */
+            line-height:
+                1;
 
-.about {
+        }
 
-    background:
-        var(--surface);
 
-}
+        .floating-label {
 
+            display:
+                block;
 
-.about-grid {
+            font-size:
+                9px;
 
-    display: grid;
+            color:
+                var(--muted);
 
-    grid-template-columns:
-        .85fr
-        1.15fr;
+            margin-top:
+                6px;
 
-    gap: 80px;
+        }
 
-    align-items: start;
 
-}
+        /* =====================================================
+           GENERAL SECTIONS
+        ====================================================== */
 
+        section {
 
-.about-text {
+            padding:
+                120px 0;
 
-    font-size: 15px;
+        }
 
-    color:
-        var(--muted);
 
-    line-height: 1.9;
+        .section-label {
 
-    max-width: 650px;
+            color:
+                var(--sage-dark);
 
-}
+            text-transform:
+                uppercase;
 
+            letter-spacing:
+                .18em;
 
-.about-text strong {
+            font-size:
+                9px;
 
-    color:
-        var(--text);
+            font-weight:
+                700;
 
-}
+            margin-bottom:
+                14px;
 
+        }
 
-.about-text p {
 
-    margin-bottom: 20px;
+        .section-heading {
 
-}
+            font-family:
+                "Playfair Display",
+                serif;
 
-/* =========================================================
-   ABOUT IMAGE
-========================================================= */
+            font-size:
+                clamp(38px, 5vw, 62px);
 
-.about-content {
-    padding-top: 5px;
-}
+            line-height:
+                1.08;
 
-.about-visual {
-    position: relative;
-}
+            font-weight:
+                500;
 
-.about-image-wrapper {
-    position: relative;
-    width: 100%;
-    max-width: 380px;
-    height: 480px;
-    border-radius: 30px;
-    overflow: hidden;
-    background: var(--surface-2);
-    box-shadow: var(--shadow);
-}
+            letter-spacing:
+                -.035em;
 
-.about-image-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    display: block;
-    transition: transform .7s ease;
-}
+        }
 
-.about-image-wrapper:hover img {
-    transform: scale(1.05);
-}
 
-.about-image-label {
-    position: absolute;
-    bottom: 18px;
-    left: 18px;
-    right: 18px;
+        .section-intro {
 
-    padding: 14px 17px;
+            color:
+                var(--muted);
 
-    border-radius: 16px;
+            max-width:
+                600px;
 
-    background:
-        rgba(251,250,246,.90);
+            margin-top:
+                18px;
 
-    backdrop-filter: blur(12px);
+            font-size:
+                15px;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+        }
 
-.about-image-label span {
-    font-size: 9px;
-    letter-spacing: .15em;
-    color: var(--muted);
-}
 
-.about-image-label strong {
-    font-size: 13px;
-    color: var(--sage-dark);
-}
+        /* =====================================================
+           ABOUT
+        ====================================================== */
 
-/* =========================================================
-   CAPABILITIES
-========================================================= */
+        .about {
 
-.capability-grid {
+            background:
+                var(--surface);
 
-    display: grid;
+        }
 
-    grid-template-columns:
-        repeat(4,1fr);
 
-    gap: 18px;
+        .about-grid {
 
-    margin-top: 65px;
+            display:
+                grid;
 
-}
+            grid-template-columns:
+                .85fr 1.15fr;
 
+            gap:
+                80px;
 
-.capability {
+            align-items:
+                center;
 
-    position: relative;
+        }
 
-    overflow: hidden;
 
-    padding: 30px;
+        .about-visual {
 
-    background:
-        var(--bg);
+            position:
+                relative;
 
-    border:
-        1px solid var(--border);
+        }
 
-    border-radius: 25px;
 
-    transition:
-        transform .4s ease,
-        box-shadow .4s ease;
+        .about-image-wrapper {
 
-}
+            position:
+                relative;
 
+            width:
+                100%;
 
-.capability::before {
+            max-width:
+                380px;
 
-    content: "";
+            height:
+                480px;
 
-    position: absolute;
+            border-radius:
+                30px;
 
-    width: 110px;
-    height: 110px;
+            overflow:
+                hidden;
 
-    border-radius: 50%;
+            background:
+                var(--surface-2);
 
-    background:
-        var(--sage-light);
+            box-shadow:
+                var(--shadow);
 
-    top: -50px;
-    right: -45px;
+        }
 
-    transition:
-        transform .5s ease;
 
-}
+        .about-image-wrapper img {
 
+            width:
+                100%;
 
-.capability:hover {
+            height:
+                100%;
 
-    transform:
-        translateY(-8px);
+            object-fit:
+                cover;
 
-    box-shadow:
-        var(--shadow);
+            object-position:
+                center;
 
-}
+            display:
+                block;
 
+            transition:
+                transform .7s ease;
 
-.capability:hover::before {
+        }
 
-    transform:
-        scale(2);
 
-}
+        .about-image-wrapper:hover img {
 
+            transform:
+                scale(1.05);
 
-.icon {
+        }
 
-    width: 46px;
-    height: 46px;
 
-    display: grid;
+        .about-image-label {
 
-    place-items: center;
+            position:
+                absolute;
 
-    border-radius: 14px;
+            bottom:
+                18px;
 
-    background:
-        var(--sage-light);
+            left:
+                18px;
 
-    color:
-        var(--sage-dark);
+            right:
+                18px;
 
-    font-size: 19px;
+            padding:
+                14px 17px;
 
-    margin-bottom: 40px;
+            border-radius:
+                16px;
 
-    position: relative;
+            background:
+                rgba(251,250,246,.90);
 
-    z-index: 2;
+            backdrop-filter:
+                blur(12px);
 
-}
+            display:
+                flex;
 
+            justify-content:
+                space-between;
 
-.capability h3 {
+            align-items:
+                center;
 
-    font-family:
-        "Playfair Display",
-        serif;
+        }
 
-    font-size: 21px;
 
-    line-height: 1.2;
+        .about-image-label span {
 
-    margin-bottom: 12px;
+            font-size:
+                9px;
 
-    position: relative;
+            letter-spacing:
+                .15em;
 
-    z-index: 2;
+            color:
+                var(--muted);
 
-}
+        }
 
 
-.capability p {
+        .about-image-label strong {
 
-    color:
-        var(--muted);
+            font-size:
+                13px;
 
-    font-size: 12px;
+            color:
+                var(--sage-dark);
 
-    position: relative;
+        }
 
-    z-index: 2;
 
-}
+        .about-content .section-heading {
 
+            max-width:
+                650px;
 
-/* =========================================================
-   EXPERIENCE
-========================================================= */
+        }
 
-.experience {
 
-    background:
-        var(--surface-2);
+        .about-text {
 
-}
+            margin-top:
+                30px;
 
+            max-width:
+                680px;
 
-.experience-wrapper {
+        }
 
-    margin-top: 60px;
 
-}
+        .about-text p {
 
+            color:
+                var(--muted);
 
-.timeline {
+            font-size:
+                15px;
 
-    position: relative;
+            margin-bottom:
+                17px;
 
-    margin-left: 5px;
+        }
 
-}
 
+        .about-text strong {
 
-.timeline::before {
+            color:
+                var(--text);
 
-    content: "";
+            font-weight:
+                600;
 
-    position: absolute;
+        }
 
-    left: 8px;
 
-    top: 0;
+        /* =====================================================
+           CAPABILITIES
+        ====================================================== */
 
-    bottom: 0;
+        .capability-grid {
 
-    width: 1px;
+            display:
+                grid;
 
-    background:
-        rgba(93,109,72,.25);
+            grid-template-columns:
+                repeat(4, 1fr);
 
-}
+            gap:
+                16px;
 
+            margin-top:
+                90px;
 
-.timeline-item {
+        }
 
-    position: relative;
 
-    padding-left: 55px;
+        .capability {
 
-    padding-bottom: 55px;
+            padding:
+                28px;
 
-}
+            background:
+                var(--bg);
 
+            border:
+                1px solid var(--border);
 
-.timeline-dot {
+            border-radius:
+                22px;
 
-    position: absolute;
+            transition:
+                transform .35s ease,
+                box-shadow .35s ease,
+                background .35s ease;
 
-    left: 0;
+        }
 
-    top: 3px;
 
-    width: 17px;
-    height: 17px;
+        .capability:hover {
 
-    background:
-        var(--surface-2);
+            transform:
+                translateY(-8px);
 
-    border:
-        4px solid var(--sage);
+            box-shadow:
+                var(--shadow-soft);
 
-    border-radius: 50%;
+            background:
+                var(--surface);
 
-    z-index: 2;
+        }
 
-}
 
+        .icon {
 
-.timeline-date {
+            width:
+                40px;
 
-    color:
-        var(--sage-dark);
+            height:
+                40px;
 
-    font-size: 10px;
+            border-radius:
+                12px;
 
-    font-weight: 700;
+            display:
+                flex;
 
-    letter-spacing: .08em;
+            align-items:
+                center;
 
-    margin-bottom: 8px;
+            justify-content:
+                center;
 
-}
+            background:
+                var(--sage-light);
 
+            color:
+                var(--sage-dark);
 
-.timeline-item h3 {
+            margin-bottom:
+                20px;
 
-    font-family:
-        "Playfair Display",
-        serif;
+            font-size:
+                16px;
 
-    font-size: 26px;
+        }
 
-    line-height: 1.2;
 
-}
+        .capability h3 {
 
+            font-size:
+                15px;
 
-.timeline-company {
+            margin-bottom:
+                9px;
 
-    color:
-        var(--sage-dark);
+            line-height:
+                1.3;
 
-    margin:
-        5px 0 13px;
+        }
 
-    font-size: 13px;
 
-    font-weight: 500;
+        .capability p {
 
-}
+            font-size:
+                12px;
 
+            color:
+                var(--muted);
 
-.timeline-item p {
+            line-height:
+                1.6;
 
-    color:
-        var(--muted);
+        }
 
-    max-width: 720px;
 
-    font-size: 13px;
+        /* =====================================================
+           EXPERIENCE
+        ====================================================== */
 
-}
+        .experience {
 
+            background:
+                var(--bg);
 
-/* =========================================================
-   IMPACT
-========================================================= */
+        }
 
-.impact {
 
-    display: grid;
+        .experience-image {
 
-    grid-template-columns:
-        repeat(3,1fr);
+            position:
+                relative;
 
-    gap: 18px;
+            width:
+                100%;
 
-    margin-top: 45px;
+            height:
+                360px;
 
-}
+            margin-top:
+                55px;
 
+            margin-bottom:
+                70px;
 
-.impact-card {
+            border-radius:
+                30px;
 
-    padding: 38px;
+            overflow:
+                hidden;
 
-    background:
-        var(--sage-dark);
+            background:
+                var(--surface);
 
-    color: white;
+            box-shadow:
+                var(--shadow);
 
-    border-radius: 25px;
+        }
 
-    position: relative;
 
-    overflow: hidden;
+        .experience-image img {
 
-    transition:
-        transform .4s ease;
+            width:
+                100%;
 
-}
+            height:
+                100%;
 
+            object-fit:
+                cover;
 
-.impact-card:hover {
+            object-position:
+                center;
 
-    transform:
-        translateY(-6px);
+            display:
+                block;
 
-}
+            filter:
+                saturate(.82);
 
+            transition:
+                transform .7s ease;
 
-.impact-card::after {
+        }
 
-    content: "";
 
-    position: absolute;
+        .experience-image:hover img {
 
-    width: 170px;
-    height: 170px;
+            transform:
+                scale(1.04);
 
-    border:
-        1px solid rgba(255,255,255,.12);
+        }
 
-    border-radius: 50%;
 
-    right: -65px;
-    bottom: -80px;
+        .experience-image-overlay {
 
-}
+            position:
+                absolute;
 
+            inset:
+                0;
 
-.counter {
+            background:
+                linear-gradient(
+                    to top,
+                    rgba(20,25,18,.68),
+                    transparent 65%
+                );
 
-    font-family:
-        "Playfair Display",
-        serif;
+        }
 
-    font-size: 52px;
 
-    line-height: 1;
+        .experience-image-caption {
 
-    color:
-        var(--sage-light);
+            position:
+                absolute;
 
-    margin-bottom: 15px;
+            left:
+                30px;
 
-}
+            bottom:
+                25px;
 
+            color:
+                white;
 
-.impact-card p {
+            z-index:
+                2;
 
-    max-width: 230px;
+        }
 
-    font-size: 12px;
 
-    opacity: .75;
+        .experience-image-caption span {
 
-}
+            display:
+                block;
 
+            font-size:
+                9px;
 
-/* =========================================================
-   EDUCATION
-========================================================= */
+            letter-spacing:
+                .18em;
 
-.education {
+            margin-bottom:
+                6px;
 
-    background:
-        var(--surface);
+            opacity:
+                .75;
 
-}
+        }
 
 
-.education-grid {
+        .experience-image-caption strong {
 
-    display: grid;
+            font-family:
+                "Playfair Display",
+                serif;
 
-    grid-template-columns:
-        1fr 1fr;
+            font-size:
+                26px;
 
-    gap: 20px;
+            font-weight:
+                500;
 
-    margin-top: 55px;
+        }
 
-}
 
+        /* =====================================================
+           TIMELINE
+        ====================================================== */
 
-.education-card {
+        .timeline {
 
-    padding: 35px;
+            position:
+                relative;
 
-    background:
-        var(--surface);
+            max-width:
+                850px;
 
-    border:
-        1px solid var(--border);
+            margin:
+                0 auto;
 
-    border-radius: 25px;
+        }
 
-    transition:
-        .4s ease;
 
-}
+        .timeline::before {
 
+            content:
+                "";
 
-.education-card:hover {
+            position:
+                absolute;
 
-    transform:
-        translateY(-7px);
+            left:
+                10px;
 
-    box-shadow:
-        var(--shadow);
+            top:
+                0;
 
-}
+            bottom:
+                0;
 
+            width:
+                1px;
 
-.edu-year {
+            background:
+                var(--border);
 
-    color:
-        var(--sage-dark);
+        }
 
-    font-size: 10px;
 
-    font-weight: 700;
+        .timeline-item {
 
-    letter-spacing: .1em;
+            position:
+                relative;
 
-}
+            padding-left:
+                55px;
 
+            padding-bottom:
+                55px;
 
-.education-card h3 {
+        }
 
-    font-family:
-        "Playfair Display",
-        serif;
 
-    font-size: 27px;
+        .timeline-item:last-child {
 
-    margin:
-        15px 0 6px;
+            padding-bottom:
+                0;
 
-}
+        }
 
 
-.education-card p {
+        .timeline-dot {
 
-    color:
-        var(--muted);
+            position:
+                absolute;
 
-    font-size: 13px;
+            left:
+                4px;
 
-}
+            top:
+                5px;
 
+            width:
+                13px;
 
-.paper {
+            height:
+                13px;
 
-    margin-top: 25px;
+            border-radius:
+                50%;
 
-    padding-top: 20px;
+            background:
+                var(--bg);
 
-    border-top:
-        1px solid var(--border);
+            border:
+                2px solid var(--sage);
 
-    color:
-        var(--muted);
+            z-index:
+                2;
 
-    font-size: 12px;
+        }
 
-    line-height: 1.7;
 
-}
+        .timeline-date {
 
+            color:
+                var(--sage-dark);
 
-.paper strong {
+            font-size:
+                9px;
 
-    color:
-        var(--text);
+            font-weight:
+                700;
 
-}
+            letter-spacing:
+                .15em;
 
+            margin-bottom:
+                8px;
 
-/* =========================================================
-   SKILLS
-========================================================= */
+        }
 
-.skills-section {
 
-    background:
-        var(--surface);
+        .timeline-item h3 {
 
-}
+            font-family:
+                "Playfair Display",
+                serif;
 
+            font-size:
+                26px;
 
-.skills {
+            font-weight:
+                500;
 
-    display: flex;
+            line-height:
+                1.2;
 
-    flex-wrap: wrap;
+            margin-bottom:
+                5px;
 
-    gap: 9px;
+        }
 
-    margin-top: 35px;
 
-}
+        .timeline-company {
 
+            font-size:
+                11px;
 
-.skill {
+            font-weight:
+                600;
 
-    padding:
-        9px 15px;
+            color:
+                var(--muted);
 
-    border-radius: 30px;
+            margin-bottom:
+                13px;
 
-    background:
-        var(--surface-2);
+        }
 
-    border:
-        1px solid var(--border);
 
-    color:
-        var(--muted);
+        .timeline-item p {
 
-    font-size: 11px;
+            color:
+                var(--muted);
 
-    transition:
-        .3s ease;
+            font-size:
+                13px;
 
-}
+            max-width:
+                700px;
 
+        }
 
-.skill:hover {
 
-    background:
-        var(--sage);
+        /* =====================================================
+           IMPACT
+        ====================================================== */
 
-    color: white;
+        .impact {
 
-    transform:
-        translateY(-3px);
+            display:
+                grid;
 
-}
+            grid-template-columns:
+                repeat(3, 1fr);
 
+            gap:
+                18px;
 
-/* =========================================================
-   TOOLS
-========================================================= */
+            margin-top:
+                90px;
 
-.tools-wrapper {
+        }
 
-    margin-top: 75px;
 
-}
+        .impact-card {
 
+            padding:
+                32px;
 
-.tools-grid {
+            border:
+                1px solid var(--border);
 
-    display: grid;
+            background:
+                var(--surface);
 
-    grid-template-columns:
-        repeat(6,1fr);
+            border-radius:
+                22px;
 
-    gap: 12px;
+        }
 
-    margin-top: 30px;
 
-}
+        .counter {
 
+            font-family:
+                "Playfair Display",
+                serif;
 
-.tool {
+            font-size:
+                48px;
 
-    padding:
-        23px 10px;
+            color:
+                var(--sage-dark);
 
-    text-align: center;
+            line-height:
+                1;
 
-    border-radius: 20px;
+            margin-bottom:
+                12px;
 
-    background:
-        var(--bg);
+        }
 
-    border:
-        1px solid var(--border);
 
-    color:
-        var(--muted);
+        .impact-card p {
 
-    font-size: 11px;
+            color:
+                var(--muted);
 
-    transition:
-        .35s ease;
+            font-size:
+                12px;
 
-}
+            max-width:
+                230px;
 
+        }
 
-.tool:hover {
 
-    transform:
-        translateY(-7px);
+        /* =====================================================
+           EDUCATION
+        ====================================================== */
 
-    box-shadow:
-        var(--shadow);
+        .education {
 
-    color:
-        var(--sage-dark);
+            background:
+                var(--surface);
 
-}
+        }
 
 
-.tool-icon {
+        .education-grid {
 
-    width: 45px;
-    height: 45px;
+            display:
+                grid;
 
-    margin:
-        0 auto 10px;
+            grid-template-columns:
+                repeat(2, 1fr);
 
-    display: grid;
+            gap:
+                20px;
 
-    place-items: center;
+            margin-top:
+                60px;
 
-    border-radius: 14px;
+        }
 
-    background:
-        var(--sage-light);
 
-    color:
-        var(--sage-dark);
+        .education-card {
 
-    font-family:
-        "Playfair Display",
-        serif;
+            padding:
+                32px;
 
-    font-size: 18px;
+            border:
+                1px solid var(--border);
 
-}
+            border-radius:
+                24px;
 
+            background:
+                var(--bg);
 
-/* =========================================================
-   CONTACT
-========================================================= */
+            transition:
+                transform .3s ease,
+                box-shadow .3s ease;
 
-.contact {
+        }
 
-    padding-top: 80px;
 
-    padding-bottom: 70px;
+        .education-card:hover {
 
-}
+            transform:
+                translateY(-6px);
 
+            box-shadow:
+                var(--shadow-soft);
 
-.contact-box {
+        }
 
-    background:
-        var(--sage);
 
-    color: white;
+        .education-year {
 
-    border-radius: 35px;
+            font-size:
+                9px;
 
-    padding: 65px;
+            color:
+                var(--sage-dark);
 
-    position: relative;
+            letter-spacing:
+                .15em;
 
-    overflow: hidden;
+            font-weight:
+                700;
 
-}
+            margin-bottom:
+                12px;
 
+        }
 
-.contact-box::before {
 
-    content: "";
+        .education-card h3 {
 
-    position: absolute;
+            font-family:
+                "Playfair Display",
+                serif;
 
-    width: 500px;
-    height: 500px;
+            font-size:
+                24px;
 
-    border:
-        1px solid rgba(255,255,255,.13);
+            font-weight:
+                500;
 
-    border-radius: 50%;
+            line-height:
+                1.25;
 
-    right: -180px;
-    top: -250px;
+            margin-bottom:
+                8px;
 
-}
+        }
 
 
-.contact-box .section-label {
+        .education-institute {
 
-    color:
-        var(--sage-light);
+            font-size:
+                12px;
 
-    position: relative;
+            font-weight:
+                600;
 
-}
+            margin-bottom:
+                15px;
 
+        }
 
-.contact-box h2 {
 
-    font-family:
-        "Playfair Display",
-        serif;
+        .education-card p {
 
-    font-size:
-        clamp(42px,5vw,70px);
+            color:
+                var(--muted);
 
-    line-height: 1;
+            font-size:
+                12px;
 
-    max-width: 650px;
+        }
 
-    position: relative;
 
-}
+        /* =====================================================
+           SKILLS
+        ====================================================== */
 
+        .skills {
 
-.contact-box p {
+            background:
+                var(--bg);
 
-    margin-top: 20px;
+        }
 
-    max-width: 560px;
 
-    opacity: .78;
+        .skills-layout {
 
-    font-size: 14px;
+            display:
+                grid;
 
-    position: relative;
+            grid-template-columns:
+                .8fr 1.2fr;
 
-}
+            gap:
+                80px;
 
+            margin-top:
+                60px;
 
-.contact-links {
+            align-items:
+                start;
 
-    display: flex;
+        }
 
-    flex-wrap: wrap;
 
-    gap: 10px;
+        .skills-description {
 
-    margin-top: 35px;
+            color:
+                var(--muted);
 
-    position: relative;
+            font-size:
+                14px;
 
-}
+        }
 
 
-.contact-link {
+        .skill-tags {
 
-    padding:
-        12px 17px;
+            display:
+                flex;
 
-    border:
-        1px solid rgba(255,255,255,.18);
+            flex-wrap:
+                wrap;
 
-    background:
-        rgba(255,255,255,.10);
+            gap:
+                10px;
 
-    border-radius: 30px;
+        }
 
-    font-size: 12px;
 
-    transition:
-        .3s ease;
+        .skill-tag {
 
-}
+            padding:
+                10px 15px;
 
+            border:
+                1px solid var(--border);
 
-.contact-link:hover {
+            border-radius:
+                30px;
 
-    background:
-        white;
+            background:
+                var(--surface);
 
-    color:
-        var(--sage-dark);
+            font-size:
+                11px;
 
-    transform:
-        translateY(-3px);
+            color:
+                var(--text);
 
-}
+            transition:
+                all .3s ease;
 
+        }
 
-/* =========================================================
-   FOOTER
-========================================================= */
 
-footer {
+        .skill-tag:hover {
 
-    padding:
-        30px 0 40px;
+            background:
+                var(--sage-light);
 
-}
+            color:
+                var(--sage-dark);
 
+            border-color:
+                var(--sage-light);
 
-.footer-inner {
+            transform:
+                translateY(-2px);
 
-    display: flex;
+        }
 
-    justify-content: space-between;
 
-    gap: 20px;
+        .tools-title {
 
-    color:
-        var(--muted);
+            margin-top:
+                50px;
 
-    font-size: 10px;
+            margin-bottom:
+                20px;
 
-    letter-spacing: .04em;
+            font-family:
+                "Playfair Display",
+                serif;
 
-}
+            font-size:
+                25px;
 
+        }
 
-/* =========================================================
-   REVEAL ANIMATION
-========================================================= */
 
-.reveal {
+        /* =====================================================
+           CONTACT
+        ====================================================== */
 
-    opacity: 0;
+        .contact {
 
-    transform:
-        translateY(30px);
+            background:
+                var(--sage-dark);
 
-    transition:
-        opacity .8s ease,
-        transform .8s ease;
+            color:
+                white;
 
-}
+        }
 
 
-.reveal.active {
+        .contact-grid {
 
-    opacity: 1;
+            display:
+                grid;
 
-    transform:
-        translateY(0);
+            grid-template-columns:
+                1fr .7fr;
 
-}
+            gap:
+                80px;
 
+            align-items:
+                end;
 
-/* =========================================================
-   KEYFRAMES
-========================================================= */
+        }
 
-@keyframes heroIn {
 
-    from {
+        .contact .section-label {
 
-        opacity: 0;
+            color:
+                var(--sage-light);
 
-        transform:
-            translateY(30px);
+        }
 
-    }
 
-    to {
+        .contact .section-heading {
 
-        opacity: 1;
+            max-width:
+                700px;
 
-        transform:
-            translateY(0);
+        }
 
-    }
 
-}
+        .contact-description {
 
+            margin-top:
+                25px;
 
-@keyframes float {
+            max-width:
+                570px;
 
-    0%,100% {
+            color:
+                rgba(255,255,255,.68);
 
-        transform:
-            translateY(0);
+            font-size:
+                14px;
 
-    }
+        }
 
-    50% {
 
-        transform:
-            translateY(-12px);
+        .contact-links {
 
-    }
+            display:
+                flex;
 
-}
+            flex-direction:
+                column;
 
+            gap:
+                10px;
 
-@keyframes pulse {
+        }
 
-    0%,100% {
 
-        box-shadow:
-            0 0 0 0
-            rgba(123,139,98,.35);
+        .contact-link {
 
-    }
+            display:
+                flex;
 
-    50% {
+            align-items:
+                center;
 
-        box-shadow:
-            0 0 0 7px
-            rgba(123,139,98,0);
+            gap:
+                12px;
 
-    }
+            padding:
+                14px 16px;
 
-}
+            border:
+                1px solid rgba(255,255,255,.15);
 
+            border-radius:
+                15px;
 
-/* =========================================================
-   TABLET
-========================================================= */
+            transition:
+                all .3s ease;
 
-@media(max-width:900px) {
+            font-size:
+                12px;
 
+        }
 
-    .nav-links {
 
-        position: absolute;
+        .contact-link i {
 
-        top: 62px;
+            width:
+                30px;
 
-        left: 0;
-        right: 0;
+            height:
+                30px;
 
-        padding: 20px;
+            border-radius:
+                50%;
 
-        background:
-            var(--surface);
+            background:
+                rgba(255,255,255,.10);
 
-        border:
-            1px solid var(--border);
+            display:
+                flex;
 
-        border-radius: 22px;
+            align-items:
+                center;
 
-        display: none;
+            justify-content:
+                center;
 
-        flex-direction: column;
+        }
 
-        gap: 18px;
 
-        box-shadow:
-            var(--shadow);
+        .contact-link:hover {
 
-    }
+            background:
+                rgba(255,255,255,.08);
 
+            transform:
+                translateX(5px);
 
-    .nav-links.show {
+        }
 
-        display: flex;
 
-    }
+        /* =====================================================
+           FOOTER
+        ====================================================== */
 
+        footer {
 
-    .menu-btn {
+            padding:
+                25px 0;
 
-        display: block;
+            background:
+                #4e5b3d;
 
-    }
+            color:
+                rgba(255,255,255,.65);
 
+        }
 
-    .hero {
 
-        grid-template-columns:
-            1fr;
+        .footer-inner {
 
-        gap: 55px;
+            display:
+                flex;
 
-        padding-top: 130px;
+            justify-content:
+                space-between;
 
-    }
+            align-items:
+                center;
 
+            gap:
+                20px;
 
-    .hero-visual {
+        }
 
-        height: 500px;
 
-    }
+        .footer-inner p {
 
+            font-size:
+                10px;
 
-    .capability-grid {
+        }
 
-        grid-template-columns:
-            1fr 1fr;
 
-    }
+        .footer-socials {
 
+            display:
+                flex;
 
-    .about-grid {
+            gap:
+                10px;
 
-        grid-template-columns:
-            1fr;
+        }
 
-        gap: 45px;
 
-    }
+        .footer-socials a {
 
+            width:
+                32px;
 
-    .education-grid {
+            height:
+                32px;
 
-        grid-template-columns:
-            1fr;
+            border-radius:
+                50%;
 
-    }
+            display:
+                flex;
 
+            align-items:
+                center;
 
-    .tools-grid {
+            justify-content:
+                center;
 
-        grid-template-columns:
-            repeat(3,1fr);
+            border:
+                1px solid rgba(255,255,255,.15);
 
-    }
+            font-size:
+                12px;
 
-}
+            transition:
+                all .3s ease;
 
+        }
 
-/* =========================================================
-   MOBILE
-========================================================= */
 
-@media(max-width:600px) {
+        .footer-socials a:hover {
 
+            background:
+                rgba(255,255,255,.1);
 
-    section {
+            color:
+                white;
 
-        padding:
-            80px 0;
+        }
 
-    }
 
+        /* =====================================================
+           REVEAL ANIMATION
+        ====================================================== */
 
-    .logo span {
+        .reveal {
 
-        display: none;
+            opacity:
+                0;
 
-    }
+            transform:
+                translateY(35px);
 
+            transition:
+                opacity .8s ease,
+                transform .8s ease;
 
-    .hero {
+        }
 
-        padding-top:
-            120px;
 
-    }
+        .reveal.active {
 
+            opacity:
+                1;
 
-    .hero h1 {
+            transform:
+                translateY(0);
 
-        font-size:
-            51px;
+        }
 
-    }
 
+        /* =====================================================
+           CURSOR GLOW
+        ====================================================== */
 
-    .hero-description {
+        .cursor-glow {
 
-        font-size:
-            14px;
+            position:
+                fixed;
 
-    }
+            width:
+                280px;
 
+            height:
+                280px;
 
-    .hero-visual {
+            border-radius:
+                50%;
 
-        height:
-            460px;
+            background:
+                radial-gradient(
+                    circle,
+                    rgba(123,139,98,.10),
+                    transparent 70%
+                );
 
-    }
+            pointer-events:
+                none;
 
+            transform:
+                translate(-50%, -50%);
 
-    .visual-card {
+            z-index:
+                9999;
 
-        border-radius:
-            28px;
+            opacity:
+                0;
 
-    }
+            transition:
+                opacity .3s ease;
 
+        }
 
-    .visual-content {
 
-        inset:
-            20px;
+        /* =====================================================
+           MOBILE
+        ====================================================== */
 
-    }
+        @media (max-width: 1000px) {
 
+            .hero-grid {
 
-    .visual-top {
+                grid-template-columns:
+                    1fr;
 
-        font-size:
-            8px;
+            }
 
-    }
 
+            .hero-content {
 
-    .status {
+                max-width:
+                    750px;
 
-        padding:
-            7px 9px;
+            }
 
-        font-size:
-            7px;
 
-    }
+            .hero-visual {
 
+                max-width:
+                    650px;
 
-    .visual-center h3 {
+                width:
+                    100%;
 
-        font-size:
-            27px;
+                margin:
+                    0 auto;
 
-    }
+            }
 
 
-    .visual-center p {
+            .about-grid {
 
-        font-size:
-            9px;
+                grid-template-columns:
+                    1fr;
 
-    }
+                gap:
+                    50px;
 
+            }
 
-    .visual-bottom {
 
-        font-size:
-            7px;
+            .about-image-wrapper {
 
-    }
+                max-width:
+                    430px;
 
+            }
 
-    .hero-stat {
 
-        display: none;
+            .capability-grid {
 
-    }
+                grid-template-columns:
+                    repeat(2, 1fr);
 
+            }
 
-    .capability-grid {
 
-        grid-template-columns:
-            1fr;
+            .skills-layout {
 
-    }
+                grid-template-columns:
+                    1fr;
 
+                gap:
+                    40px;
 
-    .impact {
+            }
 
-        grid-template-columns:
-            1fr;
 
-    }
+            .contact-grid {
 
+                grid-template-columns:
+                    1fr;
 
-    .tools-grid {
+                gap:
+                    45px;
 
-        grid-template-columns:
-            1fr 1fr;
+            }
 
-    }
+        }
 
 
-    .contact-box {
+        @media (max-width: 760px) {
 
-        padding:
-            40px 25px;
+            .navbar {
 
-        border-radius:
-            28px;
+                top:
+                    10px;
 
-    }
+            }
 
 
-    .contact-box h2 {
+            .nav-links {
 
-        font-size:
-            43px;
+                position:
+                    absolute;
 
-    }
+                top:
+                    62px;
 
+                left:
+                    0;
 
-    .footer-inner {
+                right:
+                    0;
 
-        flex-direction:
-            column;
+                display:
+                    none;
 
-        text-align:
-            center;
+                flex-direction:
+                    column;
 
-    }
+                align-items:
+                    stretch;
 
-}
+                padding:
+                    12px;
 
-</style>
+                border-radius:
+                    22px;
+
+                background:
+                    rgba(251,250,246,.97);
+
+                border:
+                    1px solid var(--border);
+
+                box-shadow:
+                    var(--shadow);
+
+            }
+
+
+            .nav-links.active {
+
+                display:
+                    flex;
+
+            }
+
+
+            .nav-links a {
+
+                text-align:
+                    center;
+
+                padding:
+                    12px;
+
+            }
+
+
+            .menu-toggle {
+
+                display:
+                    flex;
+
+                align-items:
+                    center;
+
+                justify-content:
+                    center;
+
+            }
+
+
+            .hero {
+
+                padding-top:
+                    125px;
+
+            }
+
+
+            .hero h1 {
+
+                font-size:
+                    clamp(48px, 15vw, 70px);
+
+            }
+
+
+            .hero-description {
+
+                font-size:
+                    15px;
+
+            }
+
+
+            .hero-visual {
+
+                height:
+                    470px;
+
+            }
+
+
+            .floating-stat.one {
+
+                left:
+                    -10px;
+
+                top:
+                    50px;
+
+            }
+
+
+            .floating-stat.two {
+
+                right:
+                    -10px;
+
+                bottom:
+                    50px;
+
+            }
+
+
+            section {
+
+                padding:
+                    90px 0;
+
+            }
+
+
+            .section-heading {
+
+                font-size:
+                    43px;
+
+            }
+
+
+            .capability-grid {
+
+                grid-template-columns:
+                    1fr;
+
+                margin-top:
+                    60px;
+
+            }
+
+
+            .impact {
+
+                grid-template-columns:
+                    1fr;
+
+                margin-top:
+                    60px;
+
+            }
+
+
+            .education-grid {
+
+                grid-template-columns:
+                    1fr;
+
+            }
+
+
+            .experience-image {
+
+                height:
+                    280px;
+
+                margin-top:
+                    40px;
+
+                margin-bottom:
+                    55px;
+
+                border-radius:
+                    24px;
+
+            }
+
+
+            .experience-image-caption {
+
+                left:
+                    20px;
+
+                bottom:
+                    20px;
+
+            }
+
+
+            .experience-image-caption strong {
+
+                font-size:
+                    19px;
+
+            }
+
+
+            .timeline-item {
+
+                padding-left:
+                    40px;
+
+            }
+
+
+            .timeline::before {
+
+                left:
+                    7px;
+
+            }
+
+
+            .timeline-dot {
+
+                left:
+                    1px;
+
+            }
+
+
+            .timeline-item h3 {
+
+                font-size:
+                    23px;
+
+            }
+
+
+            .about-image-wrapper {
+
+                height:
+                    400px;
+
+                max-width:
+                    100%;
+
+                border-radius:
+                    24px;
+
+            }
+
+
+            .footer-inner {
+
+                flex-direction:
+                    column;
+
+                text-align:
+                    center;
+
+            }
+
+        }
+
+
+        @media (max-width: 500px) {
+
+            .container {
+
+                width:
+                    88%;
+
+            }
+
+
+            .logo {
+
+                padding-left:
+                    7px;
+
+            }
+
+
+            .hero-buttons {
+
+                flex-direction:
+                    column;
+
+                align-items:
+                    stretch;
+
+            }
+
+
+            .btn {
+
+                width:
+                    100%;
+
+            }
+
+
+            .hero-visual {
+
+                height:
+                    430px;
+
+            }
+
+
+            .visual-card {
+
+                border-radius:
+                    26px;
+
+            }
+
+
+            .visual-bottom {
+
+                left:
+                    20px;
+
+                right:
+                    20px;
+
+                bottom:
+                    20px;
+
+            }
+
+
+            .visual-title {
+
+                font-size:
+                    26px;
+
+            }
+
+
+            .visual-meta {
+
+                gap:
+                    10px;
+
+            }
+
+
+            .visual-meta strong {
+
+                font-size:
+                    9px;
+
+            }
+
+
+            .floating-stat {
+
+                padding:
+                    12px 14px;
+
+            }
+
+
+            .floating-stat.one {
+
+                left:
+                    -5px;
+
+            }
+
+
+            .floating-stat.two {
+
+                right:
+                    -5px;
+
+            }
+
+
+            .floating-number {
+
+                font-size:
+                    21px;
+
+            }
+
+
+            .section-heading {
+
+                font-size:
+                    38px;
+
+            }
+
+
+            .experience-image {
+
+                height:
+                    230px;
+
+            }
+
+
+            .experience-image-caption strong {
+
+                font-size:
+                    17px;
+
+            }
+
+
+            .contact-link {
+
+                font-size:
+                    10px;
+
+                word-break:
+                    break-word;
+
+            }
+
+        }
+
+    </style>
 
 </head>
 
@@ -2205,60 +2954,84 @@ footer {
 <body>
 
 
+<!-- =====================================================
+     CURSOR GLOW
+====================================================== -->
+
 <div class="cursor-glow"></div>
+
 
 
 <!-- =====================================================
      NAVIGATION
-===================================================== -->
+====================================================== -->
 
-<nav>
+<nav class="navbar">
 
-    <a href="#home" class="logo">
-
-        <div class="logo-mark">
-            AA
-        </div>
-
-        <span>
-            ATHULIYA ASOKAKUMAR
-        </span>
-
-    </a>
+    <div class="nav-inner">
 
 
-    <div class="nav-links" id="navLinks">
+        <a href="#home"
+           class="logo">
 
-        <a href="#about">
-            About
+            <span class="logo-mark">
+                AA
+            </span>
+
+            <span>
+                Athuliya
+            </span>
+
         </a>
 
-        <a href="#experience">
-            Experience
-        </a>
 
-        <a href="#education">
-            Education
-        </a>
+        <ul class="nav-links"
+            id="navLinks">
 
-        <a href="#skills">
-            Skills
-        </a>
+            <li>
+                <a href="#about">
+                    About
+                </a>
+            </li>
 
-        <a href="#contact" class="nav-btn">
-            Let's Connect →
-        </a>
+            <li>
+                <a href="#experience">
+                    Experience
+                </a>
+            </li>
+
+            <li>
+                <a href="#education">
+                    Education
+                </a>
+            </li>
+
+            <li>
+                <a href="#skills">
+                    Skills
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact"
+                   class="nav-cta">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+
+        <button class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open menu">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </button>
+
 
     </div>
-
-
-    <button
-        class="menu-btn"
-        onclick="toggleMenu()">
-
-        ☰
-
-    </button>
 
 </nav>
 
@@ -2266,138 +3039,182 @@ footer {
 
 <!-- =====================================================
      HERO
-===================================================== -->
+====================================================== -->
 
-<main id="home">
+<section class="hero"
+         id="home">
 
+    <div class="container">
 
-<section class="hero container">
-
-
-    <div class="hero-content">
-
-
-        <div class="eyebrow">
-
-            Operations Executive &
-            Process Specialist
-
-        </div>
+        <div class="hero-grid">
 
 
-        <h1>
+            <!-- HERO CONTENT -->
 
-            Turning complex
-            <em>workflows</em>
-            into clarity.
+            <div class="hero-content reveal">
 
-        </h1>
+                <div class="eyebrow">
 
+                    Operations Executive &
+                    Process Specialist
 
-        <p class="hero-description">
-
-            I connect cross-functional teams,
-            streamline workflows, build reporting
-            systems, and turn unstructured processes
-            into operational clarity.
-
-        </p>
+                </div>
 
 
-        <div class="hero-actions">
+                <h1>
 
-
-            <a
-                href="#experience"
-                class="btn btn-primary">
-
-                Explore My Experience →
-
-            </a>
-
-
-            <a
-                href="#contact"
-                class="btn btn-secondary">
-
-                Get In Touch
-
-            </a>
-
-
-        </div>
-
-
-    </div>
-
-
-
-    <!-- =================================================
-         HERO IMAGE
-    ================================================== -->
-
-    <div class="hero-visual">
-
-
-        <div class="visual-card">
-
-
-            <!-- YOUR IMAGE -->
-
-            <img
-                src="images/profile.jpg"
-                alt="Athuliya Asokakumar"
-                class="profile-image"
-            >
-
-
-            <div class="visual-overlay"></div>
-
-
-            <div class="visual-content">
-
-
-                <div class="visual-top">
+                    Turning complex
 
                     <span>
-                        ATHULIYA A.
+                        workflows
                     </span>
 
+                    into clarity.
 
-                    <span class="status">
+                </h1>
 
-                        <i class="status-dot"></i>
 
-                        Available for opportunities
+                <p class="hero-description">
 
+                    I connect cross-functional teams,
+                    streamline workflows, build reporting
+                    systems, and turn unstructured processes
+                    into operational clarity.
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#experience"
+                       class="btn btn-primary">
+
+                        Explore My Experience
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+
+                    <a href="#contact"
+                       class="btn btn-secondary">
+
+                        Get In Touch
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- HERO VISUAL -->
+
+            <div class="hero-visual reveal">
+
+
+                <div class="visual-card">
+
+
+                    <img
+                        src="images/profile.jpg"
+                        alt="Athuliya Asokakumar"
+                        class="profile-image"
+                    >
+
+
+                    <div class="visual-overlay"></div>
+
+
+                    <div class="visual-top">
+
+                        <span class="visual-name">
+                            ATHULIYA A.
+                        </span>
+
+
+                        <span class="available">
+                            Available for opportunities
+                        </span>
+
+                    </div>
+
+
+                    <div class="visual-bottom">
+
+                        <div class="visual-role">
+                            Operations
+                        </div>
+
+
+                        <div class="visual-title">
+                            Systems · People · Process
+                        </div>
+
+
+                        <div class="visual-meta">
+
+                            <div>
+
+                                <span>
+                                    Location
+                                </span>
+
+                                <strong>
+                                    SHARJAH, UAE
+                                </strong>
+
+                            </div>
+
+
+                            <div>
+
+                                <span>
+                                    Experience
+                                </span>
+
+                                <strong>
+                                    3+ YEARS
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- FLOATING STAT 1 -->
+
+                <div class="floating-stat one">
+
+                    <span class="floating-number">
+                        300+
+                    </span>
+
+                    <span class="floating-label">
+                        Learners managed
                     </span>
 
                 </div>
 
 
 
-                <div class="visual-center">
+                <!-- FLOATING STAT 2 -->
 
-                    <h3>
-                        Operations
-                    </h3>
+                <div class="floating-stat two">
 
-                    <p>
-                        Systems · People · Process
-                    </p>
-
-                </div>
-
-
-
-                <div class="visual-bottom">
-
-                    <span>
-                        SHARJAH, UAE
+                    <span class="floating-number">
+                        9–10
                     </span>
 
-                    <span>
-                        3+ YEARS EXPERIENCE
+                    <span class="floating-label">
+                        Concurrent training sections
                     </span>
 
                 </div>
@@ -2405,44 +3222,9 @@ footer {
 
             </div>
 
-
         </div>
-
-
-
-        <!-- FLOATING STAT 1 -->
-
-        <div class="hero-stat stat-one">
-
-            <strong>
-                300+
-            </strong>
-
-            <span>
-                Learners managed
-            </span>
-
-        </div>
-
-
-
-        <!-- FLOATING STAT 2 -->
-
-        <div class="hero-stat stat-two">
-
-            <strong>
-                9–10
-            </strong>
-
-            <span>
-                Concurrent training sections
-            </span>
-
-        </div>
-
 
     </div>
-
 
 </section>
 
@@ -2450,30 +3232,107 @@ footer {
 
 <!-- =====================================================
      ABOUT
-===================================================== -->
+====================================================== -->
 
-<section id="about" class="about">
+<section class="about"
+         id="about">
 
-<div class="container">
+    <div class="container">
 
-    <div class="about-grid reveal">
 
-        <!-- ABOUT IMAGE -->
+        <div class="about-grid reveal">
 
-        <div class="about-visual">
 
-            <div class="about-image-wrapper">
+            <!-- ABOUT IMAGE -->
 
-                <img
-                    src="images/about.jpg"
-                    alt="Athuliya Asokakumar"
-                >
+            <div class="about-visual">
 
-                <div class="about-image-label">
+                <div class="about-image-wrapper">
 
-                    <span>BASED IN</span>
+                    <img
+                        src="images/about.jpg"
+                        alt="Athuliya Asokakumar"
+                    >
 
-                    <strong>UAE</strong>
+
+                    <div class="about-image-label">
+
+                        <span>
+                            BASED IN
+                        </span>
+
+                        <strong>
+                            UAE
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ABOUT CONTENT -->
+
+            <div class="about-content">
+
+                <div class="section-label">
+                    About Me
+                </div>
+
+
+                <h2 class="section-heading">
+
+                    I build systems
+                    that make work
+                    easier.
+
+                </h2>
+
+
+                <div class="about-text">
+
+                    <p>
+
+                        I’m an operations professional
+                        with an engineering background
+                        and experience across education,
+                        student success, customer
+                        operations and administrative
+                        environments.
+
+                    </p>
+
+
+                    <p>
+
+                        My strength is taking something
+                        that feels
+
+                        <strong>
+                            unstructured, repetitive
+                            or difficult to track
+                        </strong>
+
+                        and turning it into a process
+                        that is easier to understand,
+                        monitor and execute.
+
+                    </p>
+
+
+                    <p>
+
+                        I work at the intersection of
+                        people, processes and systems —
+                        coordinating stakeholders,
+                        tracking resources, managing
+                        vendors and creating reporting
+                        structures that give teams
+                        better visibility.
+
+                    </p>
 
                 </div>
 
@@ -2482,148 +3341,94 @@ footer {
         </div>
 
 
-        <!-- ABOUT CONTENT -->
 
-        <div class="about-content">
+        <!-- CAPABILITIES -->
 
-            <div class="section-label">
-                About Me
+        <div class="capability-grid">
+
+
+            <div class="capability reveal">
+
+                <div class="icon">
+                    <i class="fa-solid fa-gears"></i>
+                </div>
+
+                <h3>
+                    Operations & Workflow
+                </h3>
+
+                <p>
+                    Process management,
+                    resource tracking and
+                    timeline management.
+                </p>
+
             </div>
 
-            <h2 class="section-heading">
-
-                I build systems
-                that make work
-                easier.
-
-            </h2>
 
 
-            <div class="about-text">
+            <div class="capability reveal">
 
-                <p>
+                <div class="icon">
+                    <i class="fa-solid fa-users"></i>
+                </div>
 
-                    I’m an operations professional
-                    with an engineering background
-                    and experience across education,
-                    student success, customer
-                    operations and administrative
-                    environments.
-
-                </p>
-
+                <h3>
+                    Vendor & Stakeholders
+                </h3>
 
                 <p>
-
-                    My strength is taking something
-                    that feels
-                    <strong>
-                        unstructured, repetitive or
-                        difficult to track
-                    </strong>
-
-                    and turning it into a process
-                    that is easier to understand,
-                    monitor and execute.
-
+                    External vendor alignment,
+                    coordination and stakeholder
+                    communication.
                 </p>
-
-
-                <p>
-
-                    I work at the intersection of
-                    people, processes and systems —
-                    coordinating stakeholders,
-                    tracking resources, managing
-                    vendors and creating reporting
-                    structures that give teams
-                    better visibility.
-
-                </p>
-
 
             </div>
+
+
+
+            <div class="capability reveal">
+
+                <div class="icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <h3>
+                    Systems & Reporting
+                </h3>
+
+                <p>
+                    Excel dashboards,
+                    CRM management and
+                    operational reporting.
+                </p>
+
+            </div>
+
+
+
+            <div class="capability reveal">
+
+                <div class="icon">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                </div>
+
+                <h3>
+                    Continuous Improvement
+                </h3>
+
+                <p>
+                    Finding gaps, improving
+                    consistency and making
+                    workflows more efficient.
+                </p>
+
+            </div>
+
 
         </div>
 
     </div>
-
-
-
-    <!-- CAPABILITIES -->
-
-    <div class="capability-grid">
-
-        <div class="capability reveal">
-
-            <div class="icon">⌘</div>
-
-            <h3>
-                Operations & Workflow
-            </h3>
-
-            <p>
-                Process management,
-                resource tracking and
-                timeline management.
-            </p>
-
-        </div>
-
-
-        <div class="capability reveal">
-
-            <div class="icon">◎</div>
-
-            <h3>
-                Vendor & Stakeholders
-            </h3>
-
-            <p>
-                External vendor alignment,
-                coordination and stakeholder
-                communication.
-            </p>
-
-        </div>
-
-
-        <div class="capability reveal">
-
-            <div class="icon">▣</div>
-
-            <h3>
-                Systems & Reporting
-            </h3>
-
-            <p>
-                Excel dashboards,
-                CRM management and
-                operational reporting.
-            </p>
-
-        </div>
-
-
-        <div class="capability reveal">
-
-            <div class="icon">↗</div>
-
-            <h3>
-                Continuous Improvement
-            </h3>
-
-            <p>
-                Finding gaps, improving
-                consistency and making
-                workflows more efficient.
-            </p>
-
-        </div>
-
-    </div>
-
-</div>
 
 </section>
 
@@ -2631,76 +3436,95 @@ footer {
 
 <!-- =====================================================
      EXPERIENCE
-===================================================== -->
+====================================================== -->
 
-<section id="experience" class="experience">
+<section class="experience"
+         id="experience">
 
-
-<div class="container">
-
-
-    <div class="reveal">
+    <div class="container">
 
 
-        <div class="section-label">
-            Experience
+        <div class="reveal">
+
+            <div class="section-label">
+                Experience
+            </div>
+
+
+            <h2 class="section-heading">
+
+                Work that keeps
+                things moving.
+
+            </h2>
+
+
+            <p class="section-intro">
+
+                From operations and admissions
+                to training, learner success
+                and customer support.
+
+            </p>
+
         </div>
 
 
-        <h2 class="section-heading">
 
-            Work that keeps
-            things moving.
+        <!-- WORK IMAGE -->
 
-        </h2>
+        <div class="experience-image reveal">
 
-
-        <p class="section-intro">
-
-            From operations and admissions
-            to training, learner success
-            and customer support.
-
-        </p>
+            <img
+                src="images/work.jpg"
+                alt="Athuliya Asokakumar during a professional training session"
+            >
 
 
-    </div>
+            <div class="experience-image-overlay"></div>
+
+
+            <div class="experience-image-caption">
+
+                <span>
+                    WORK IN ACTION
+                </span>
+
+                <strong>
+                    Training · Coordination · People
+                </strong>
+
+            </div>
+
+        </div>
 
 
 
-    <div class="experience-wrapper">
-
+        <!-- TIMELINE -->
 
         <div class="timeline">
 
 
-            <!-- JOB 1 -->
+            <!-- EXPERIENCE 1 -->
 
             <div class="timeline-item reveal">
-
 
                 <div class="timeline-dot"></div>
 
 
                 <div class="timeline-date">
-
                     NOV 2024 — PRESENT
-
                 </div>
 
 
                 <h3>
-
                     Operations Executive &
                     Content Writer
-
                 </h3>
 
 
                 <div class="timeline-company">
-
                     ATMS Education Group · Sharjah
-
                 </div>
 
 
@@ -2715,37 +3539,29 @@ footer {
 
                 </p>
 
-
             </div>
 
 
 
-            <!-- JOB 2 -->
+            <!-- EXPERIENCE 2 -->
 
             <div class="timeline-item reveal">
-
 
                 <div class="timeline-dot"></div>
 
 
                 <div class="timeline-date">
-
                     JUL 2024 — NOV 2024
-
                 </div>
 
 
                 <h3>
-
                     Admission Officer
-
                 </h3>
 
 
                 <div class="timeline-company">
-
                     ATMS Education Group · Sharjah
-
                 </div>
 
 
@@ -2759,37 +3575,29 @@ footer {
 
                 </p>
 
-
             </div>
 
 
 
-            <!-- JOB 3 -->
+            <!-- EXPERIENCE 3 -->
 
             <div class="timeline-item reveal">
-
 
                 <div class="timeline-dot"></div>
 
 
                 <div class="timeline-date">
-
                     JUL 2022 — APR 2024
-
                 </div>
 
 
                 <h3>
-
                     Counselor / Trainer
-
                 </h3>
 
 
                 <div class="timeline-company">
-
                     RVS College of Arts and Science · India
-
                 </div>
 
 
@@ -2805,37 +3613,29 @@ footer {
 
                 </p>
 
-
             </div>
 
 
 
-            <!-- JOB 4 -->
+            <!-- EXPERIENCE 4 -->
 
             <div class="timeline-item reveal">
-
 
                 <div class="timeline-dot"></div>
 
 
                 <div class="timeline-date">
-
                     JAN 2022 — MAY 2022
-
                 </div>
 
 
                 <h3>
-
                     Student Success Specialist
-
                 </h3>
 
 
                 <div class="timeline-company">
-
                     BYJU'S · India
-
                 </div>
 
 
@@ -2849,37 +3649,29 @@ footer {
 
                 </p>
 
-
             </div>
 
 
 
-            <!-- JOB 5 -->
+            <!-- EXPERIENCE 5 -->
 
             <div class="timeline-item reveal">
-
 
                 <div class="timeline-dot"></div>
 
 
                 <div class="timeline-date">
-
                     AUG 2021 — NOV 2021
-
                 </div>
 
 
                 <h3>
-
                     Customer Associate
-
                 </h3>
 
 
                 <div class="timeline-company">
-
                     Amazon · India
-
                 </div>
 
 
@@ -2892,99 +3684,66 @@ footer {
 
                 </p>
 
-
             </div>
 
 
         </div>
 
+
+
+        <!-- IMPACT -->
+
+        <div class="impact">
+
+
+            <div class="impact-card reveal">
+
+                <div class="counter"
+                     data-target="300">
+                    0+
+                </div>
+
+                <p>
+                    Learners managed across
+                    student-success roles
+                </p>
+
+            </div>
+
+
+            <div class="impact-card reveal">
+
+                <div class="counter"
+                     data-target="10">
+                    0+
+                </div>
+
+                <p>
+                    Concurrent training
+                    sections coordinated
+                </p>
+
+            </div>
+
+
+            <div class="impact-card reveal">
+
+                <div class="counter"
+                     data-target="5">
+                    0+
+                </div>
+
+                <p>
+                    Professional roles across
+                    operations and education
+                </p>
+
+            </div>
+
+
+        </div>
 
     </div>
-
-
-
-    <!-- IMPACT -->
-
-
-    <div class="impact">
-
-
-        <div class="impact-card reveal">
-
-
-            <div
-                class="counter"
-                data-target="300">
-
-                0+
-
-            </div>
-
-
-            <p>
-
-                Learners managed across
-                student-success roles
-
-            </p>
-
-
-        </div>
-
-
-
-        <div class="impact-card reveal">
-
-
-            <div
-                class="counter"
-                data-target="10">
-
-                0+
-
-            </div>
-
-
-            <p>
-
-                Concurrent training
-                sections coordinated
-
-            </p>
-
-
-        </div>
-
-
-
-        <div class="impact-card reveal">
-
-
-            <div
-                class="counter"
-                data-target="5">
-
-                0+
-
-            </div>
-
-
-            <p>
-
-                Professional roles across
-                operations and education
-
-            </p>
-
-
-        </div>
-
-
-    </div>
-
-
-</div>
-
 
 </section>
 
@@ -2992,131 +3751,97 @@ footer {
 
 <!-- =====================================================
      EDUCATION
-===================================================== -->
+====================================================== -->
 
-<section id="education" class="education">
+<section class="education"
+         id="education">
 
-
-<div class="container">
-
-
-    <div class="reveal">
+    <div class="container">
 
 
-        <div class="section-label">
-            Education
-        </div>
+        <div class="reveal">
 
-
-        <h2 class="section-heading">
-
-            Engineering logic.
-            Human understanding.
-
-        </h2>
-
-
-        <p class="section-intro">
-
-            A technical foundation combined
-            with psychology and behavioral
-            understanding.
-
-        </p>
-
-
-    </div>
-
-
-
-    <div class="education-grid">
-
-
-        <div class="education-card reveal">
-
-
-            <div class="edu-year">
-
-                2023 — 2024
-
+            <div class="section-label">
+                Education
             </div>
 
 
-            <h3>
-
-                PG Diploma in Psychology
-
-            </h3>
-
-
-            <p>
-
-                Acharya Nagarjuna University
-
-            </p>
-
-
-            <div class="paper">
-
-                Focus: psychological assessment,
-                counseling and behavior analysis.
-
-            </div>
-
+            <h2 class="section-heading">
+                The foundation behind
+                the work.
+            </h2>
 
         </div>
 
 
 
-        <div class="education-card reveal">
+        <div class="education-grid">
 
 
-            <div class="edu-year">
+            <!-- EDUCATION 1 -->
 
-                2017 — 2021
+            <div class="education-card reveal">
+
+                <div class="education-year">
+                    2023 — 2024
+                </div>
+
+
+                <h3>
+                    PG Diploma in Psychology
+                </h3>
+
+
+                <div class="education-institute">
+                    Acharya Nagarjuna University
+                </div>
+
+
+                <p>
+
+                    Focus: psychological assessment,
+                    counseling and behavior analysis.
+
+                </p>
 
             </div>
 
 
-            <h3>
 
-                B.E. Aeronautical Engineering
+            <!-- EDUCATION 2 -->
 
-            </h3>
+            <div class="education-card reveal">
 
-
-            <p>
-
-                Nehru Institute of Technology
-
-            </p>
+                <div class="education-year">
+                    2017 — 2021
+                </div>
 
 
-            <div class="paper">
+                <h3>
+                    B.E. Aeronautical Engineering
+                </h3>
 
-                Published paper:
 
-                <br><br>
+                <div class="education-institute">
+                    Nehru Institute of Technology
+                </div>
 
-                <strong>
 
+                <p>
+
+                    Published paper:
                     "Study on Aviation Carbon
-                    Emission Reduction by
-                    Artificial Photosynthesis"
+                    Emission Reduction by Artificial
+                    Photosynthesis"
 
-                </strong>
+                </p>
 
             </div>
 
 
         </div>
 
-
     </div>
-
-
-</div>
-
 
 </section>
 
@@ -3124,198 +3849,165 @@ footer {
 
 <!-- =====================================================
      SKILLS
-===================================================== -->
+====================================================== -->
 
-<section
-    id="skills"
-    class="skills-section">
+<section class="skills"
+         id="skills">
 
-
-<div class="container">
+    <div class="container">
 
 
-    <div class="reveal">
+        <div class="reveal">
+
+            <div class="section-label">
+                Skills
+            </div>
 
 
-        <div class="section-label">
-            Core Skills
-        </div>
-
-
-        <h2 class="section-heading">
-
-            The things I’m
-            good at.
-
-        </h2>
-
-
-    </div>
-
-
-
-    <div class="skills reveal">
-
-
-        <span class="skill">
-            Process Improvement
-        </span>
-
-
-        <span class="skill">
-            Vendor Management
-        </span>
-
-
-        <span class="skill">
-            Cross-Functional Coordination
-        </span>
-
-
-        <span class="skill">
-            Stakeholder Communication
-        </span>
-
-
-        <span class="skill">
-            Excel Dashboards
-        </span>
-
-
-        <span class="skill">
-            CRM Management
-        </span>
-
-
-        <span class="skill">
-            Resource Tracking
-        </span>
-
-
-        <span class="skill">
-            Timeline Tracking
-        </span>
-
-
-        <span class="skill">
-            Operational Audits
-        </span>
-
-
-        <span class="skill">
-            Event Coordination
-        </span>
-
-
-        <span class="skill">
-            Program Management
-        </span>
-
-
-        <span class="skill">
-            Data-Driven Reporting
-        </span>
-
-
-    </div>
-
-
-
-    <!-- TOOLS -->
-
-
-    <div class="tools-wrapper reveal">
-
-
-        <div class="section-label">
-
-            Tools & Software
+            <h2 class="section-heading">
+                What I bring
+                to the table.
+            </h2>
 
         </div>
 
 
-        <div class="tools-grid">
+
+        <div class="skills-layout">
 
 
-            <div class="tool">
+            <div class="skills-description reveal">
 
-                <div class="tool-icon">
-                    E
-                </div>
+                <p>
 
-                Microsoft Excel
+                    A combination of operational
+                    thinking, people coordination,
+                    structured reporting and
+                    continuous improvement.
 
-            </div>
-
-
-
-            <div class="tool">
-
-                <div class="tool-icon">
-                    W
-                </div>
-
-                Microsoft Word
+                </p>
 
             </div>
 
 
 
-            <div class="tool">
+            <div class="reveal">
 
-                <div class="tool-icon">
-                    P
+
+                <div class="skill-tags">
+
+
+                    <span class="skill-tag">
+                        Process Improvement
+                    </span>
+
+
+                    <span class="skill-tag">
+                        Vendor Management
+                    </span>
+
+
+                    <span class="skill-tag">
+                        Cross-Functional Coordination
+                    </span>
+
+
+                    <span class="skill-tag">
+                        Stakeholder Communication
+                    </span>
+
+
+                    <span class="skill-tag">
+                        Excel Dashboards
+                    </span>
+
+
+                    <span class="skill-tag">
+                        CRM Management
+                    </span>
+
+
+                    <span class="skill-tag">
+                        Resource Tracking
+                    </span>
+
+
+                    <span class="skill-tag">
+                        Timeline Tracking
+                    </span>
+
+
+                    <span class="skill-tag">
+                        Operational Audits
+                    </span>
+
+
+                    <span class="skill-tag">
+                        Event Coordination
+                    </span>
+
+
+                    <span class="skill-tag">
+                        Program Management
+                    </span>
+
+
+                    <span class="skill-tag">
+                        Data-Driven Reporting
+                    </span>
+
+
                 </div>
 
-                PowerPoint
-
-            </div>
 
 
+                <h3 class="tools-title">
+                    Tools
+                </h3>
 
-            <div class="tool">
 
-                <div class="tool-icon">
-                    Z
+                <div class="skill-tags">
+
+
+                    <span class="skill-tag">
+                        Microsoft Excel
+                    </span>
+
+
+                    <span class="skill-tag">
+                        Microsoft Word
+                    </span>
+
+
+                    <span class="skill-tag">
+                        PowerPoint
+                    </span>
+
+
+                    <span class="skill-tag">
+                        Zoho CRM
+                    </span>
+
+
+                    <span class="skill-tag">
+                        Notion
+                    </span>
+
+
+                    <span class="skill-tag">
+                        Canva
+                    </span>
+
+
                 </div>
 
-                Zoho CRM
-
-            </div>
-
-
-
-            <div class="tool">
-
-                <div class="tool-icon">
-                    N
-                </div>
-
-                Notion
-
-            </div>
-
-
-
-            <div class="tool">
-
-                <div class="tool-icon">
-                    C
-                </div>
-
-                Canva
 
             </div>
 
 
         </div>
 
-
     </div>
-
-
-</div>
-
 
 </section>
 
@@ -3323,490 +4015,599 @@ footer {
 
 <!-- =====================================================
      CONTACT
-===================================================== -->
+====================================================== -->
 
-<section
-    id="contact"
-    class="contact">
+<section class="contact"
+         id="contact">
 
-
-<div class="container">
+    <div class="container">
 
 
-    <div class="contact-box reveal">
+        <div class="contact-grid">
 
 
-        <div class="section-label">
+            <div class="reveal">
 
-            Let's Connect
+                <div class="section-label">
+                    Let's Connect
+                </div>
+
+
+                <h2 class="section-heading">
+
+                    Open to opportunities
+                    that drive impact.
+
+                </h2>
+
+
+                <p class="contact-description">
+
+                    Interested in operations,
+                    process improvement,
+                    coordination and roles
+                    where better systems can
+                    create better results.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="contact-links reveal">
+
+
+                <!-- EMAIL -->
+
+                <a
+                    href="mailto:athuliyasaradha@gmail.com"
+                    class="contact-link"
+                >
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <span>
+                        athuliyasaradha@gmail.com
+                    </span>
+
+                </a>
+
+
+
+                <!-- PHONE -->
+
+                <a
+                    href="tel:+971559050760"
+                    class="contact-link"
+                >
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <span>
+                        +971 55 905 0760
+                    </span>
+
+                </a>
+
+
+
+                <!-- LINKEDIN -->
+
+                <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noopener"
+                    class="contact-link"
+                >
+
+                    <i class="fa-brands fa-linkedin-in"></i>
+
+                    <span>
+                        LinkedIn Profile
+                    </span>
+
+                </a>
+
+
+
+                <!-- WHATSAPP -->
+
+                <a
+                    href="https://wa.me/971559050760"
+                    target="_blank"
+                    rel="noopener"
+                    class="contact-link"
+                >
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    <span>
+                        WhatsApp Me
+                    </span>
+
+                </a>
+
+
+            </div>
 
         </div>
-
-
-        <h2>
-
-            Open to opportunities
-            that drive impact.
-
-        </h2>
-
-
-        <p>
-
-            Interested in operations,
-            process improvement,
-            coordination and roles where
-            better systems can create
-            better results.
-
-        </p>
-
-
-
-        <div class="contact-links">
-
-
-            <a
-                href="mailto:athuliyasaradha@gmail.com"
-                class="contact-link">
-
-                ✉ Email
-
-            </a>
-
-
-            <a
-                href="tel:+971559050760"
-                class="contact-link">
-
-                ☎ +971 55 905 0760
-
-            </a>
-
-
-            <a
-                href="https://www.linkedin.com/"
-                target="_blank"
-                class="contact-link">
-
-                in LinkedIn
-
-            </a>
-
-
-            <a
-                href="https://wa.me/971559050760"
-                target="_blank"
-                class="contact-link">
-
-                WhatsApp →
-
-            </a>
-
-
-        </div>
-
 
     </div>
 
-
-</div>
-
-
 </section>
-
-
-</main>
 
 
 
 <!-- =====================================================
      FOOTER
-===================================================== -->
+====================================================== -->
 
 <footer>
 
+    <div class="container">
 
-<div class="container footer-inner">
-
-
-    <span>
-
-        © 2026 Athuliya Asokakumar
-
-    </span>
+        <div class="footer-inner">
 
 
-    <span>
+            <p>
+                © 2026 Athuliya Asokakumar.
+                Built with purpose.
+            </p>
 
-        Operations · Process · People
 
-    </span>
+            <div class="footer-socials">
 
 
-</div>
+                <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="LinkedIn"
+                >
 
+                    <i class="fa-brands fa-linkedin-in"></i>
+
+                </a>
+
+
+                <a
+                    href="https://wa.me/971559050760"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="WhatsApp"
+                >
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                </a>
+
+
+                <a
+                    href="mailto:athuliyasaradha@gmail.com"
+                    aria-label="Email"
+                >
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
 
 </footer>
 
 
 
+<!-- =====================================================
+     JAVASCRIPT
+====================================================== -->
+
 <script>
 
 
-/* =========================================================
-   MOBILE MENU
-========================================================= */
+    /* =====================================================
+       MOBILE MENU
+    ====================================================== */
 
-function toggleMenu() {
+    const menuToggle =
+        document.getElementById("menuToggle");
 
-    const menu =
+    const navLinks =
         document.getElementById("navLinks");
 
-    menu.classList.toggle("show");
 
-}
+    menuToggle.addEventListener(
+        "click",
+        () => {
 
+            navLinks.classList.toggle("active");
 
-/* CLOSE MOBILE MENU */
+            const icon =
+                menuToggle.querySelector("i");
 
-document
-    .querySelectorAll(".nav-links a")
-    .forEach(link => {
+            if (
+                navLinks.classList.contains("active")
+            ) {
 
-        link.addEventListener(
-            "click",
-            () => {
+                icon.classList.remove(
+                    "fa-bars"
+                );
 
-                document
-                    .getElementById("navLinks")
-                    .classList.remove("show");
+                icon.classList.add(
+                    "fa-xmark"
+                );
+
+            } else {
+
+                icon.classList.remove(
+                    "fa-xmark"
+                );
+
+                icon.classList.add(
+                    "fa-bars"
+                );
 
             }
-        );
 
-    });
-
-
-
-/* =========================================================
-   CURSOR GLOW
-========================================================= */
-
-const glow =
-    document.querySelector(".cursor-glow");
+        }
+    );
 
 
-document.addEventListener(
-    "mousemove",
-    e => {
+    /* Close mobile menu
+       after clicking a link */
 
-        glow.style.left =
-            e.clientX + "px";
+    document
+        .querySelectorAll(".nav-links a")
+        .forEach(link => {
 
-        glow.style.top =
-            e.clientY + "px";
+            link.addEventListener(
+                "click",
+                () => {
 
-    }
-);
+                    navLinks.classList.remove(
+                        "active"
+                    );
 
+                    const icon =
+                        menuToggle.querySelector("i");
 
+                    icon.classList.remove(
+                        "fa-xmark"
+                    );
 
-/* =========================================================
-   SCROLL REVEAL
-========================================================= */
-
-const revealElements =
-    document.querySelectorAll(".reveal");
-
-
-const revealObserver =
-    new IntersectionObserver(
-
-        entries => {
-
-            entries.forEach(
-                entry => {
-
-                    if (
-                        entry.isIntersecting
-                    ) {
-
-                        entry.target
-                            .classList
-                            .add("active");
-
-                    }
+                    icon.classList.add(
+                        "fa-bars"
+                    );
 
                 }
             );
 
-        },
-
-        {
-            threshold: .12
-        }
-
-    );
-
-
-revealElements.forEach(
-    element => {
-
-        revealObserver.observe(
-            element
-        );
-
-    }
-);
+        });
 
 
 
-/* =========================================================
-   COUNTER ANIMATION
-========================================================= */
+    /* =====================================================
+       SCROLL REVEAL
+    ====================================================== */
 
-const counters =
-    document.querySelectorAll(".counter");
-
-
-const counterObserver =
-    new IntersectionObserver(
-
-        entries => {
-
-            entries.forEach(
-                entry => {
-
-                    if (
-                        !entry.isIntersecting
-                    ) return;
+    const revealElements =
+        document.querySelectorAll(".reveal");
 
 
-                    const counter =
-                        entry.target;
+    const revealObserver =
+        new IntersectionObserver(
+            (entries) => {
 
-
-                    const target =
-                        parseInt(
-                            counter.dataset.target
-                        );
-
-
-                    let current = 0;
-
-                    const duration = 1300;
-
-                    const startTime =
-                        performance.now();
-
-
-                    function update(time) {
-
-                        const progress =
-                            Math.min(
-                                (time - startTime)
-                                / duration,
-                                1
-                            );
-
-
-                        current =
-                            Math.floor(
-                                progress * target
-                            );
-
-
-                        counter.textContent =
-                            current + "+";
-
+                entries.forEach(
+                    entry => {
 
                         if (
-                            progress < 1
+                            entry.isIntersecting
                         ) {
 
-                            requestAnimationFrame(
-                                update
+                            entry.target.classList.add(
+                                "active"
+                            );
+
+                            revealObserver.unobserve(
+                                entry.target
                             );
 
                         }
 
                     }
+                );
+
+            },
+            {
+                threshold: .12
+            }
+        );
 
 
-                    requestAnimationFrame(
-                        update
-                    );
+    revealElements.forEach(
+        element => {
+
+            revealObserver.observe(
+                element
+            );
+
+        }
+    );
 
 
-                    counterObserver
-                        .unobserve(counter);
+
+    /* =====================================================
+       COUNTER ANIMATION
+    ====================================================== */
+
+    const counters =
+        document.querySelectorAll(".counter");
+
+
+    const counterObserver =
+        new IntersectionObserver(
+            (entries) => {
+
+                entries.forEach(
+                    entry => {
+
+                        if (
+                            entry.isIntersecting
+                        ) {
+
+                            const counter =
+                                entry.target;
+
+                            const target =
+                                parseInt(
+                                    counter.dataset.target
+                                );
+
+                            let current = 0;
+
+                            const duration = 1200;
+
+                            const increment =
+                                target /
+                                (duration / 16);
+
+
+                            const updateCounter =
+                                () => {
+
+                                    current +=
+                                        increment;
+
+                                    if (
+                                        current <
+                                        target
+                                    ) {
+
+                                        counter.textContent =
+                                            Math.floor(current) + "+";
+
+                                        requestAnimationFrame(
+                                            updateCounter
+                                        );
+
+                                    } else {
+
+                                        counter.textContent =
+                                            target + "+";
+
+                                    }
+
+                                };
+
+
+                            updateCounter();
+
+                            counterObserver.unobserve(
+                                counter
+                            );
+
+                        }
+
+                    }
+                );
+
+            },
+            {
+                threshold: .7
+            }
+        );
+
+
+    counters.forEach(
+        counter => {
+
+            counterObserver.observe(
+                counter
+            );
+
+        }
+    );
+
+
+
+    /* =====================================================
+       CURSOR GLOW
+    ====================================================== */
+
+    const cursorGlow =
+        document.querySelector(
+            ".cursor-glow"
+        );
+
+
+    document.addEventListener(
+        "mousemove",
+        (event) => {
+
+            cursorGlow.style.left =
+                event.clientX + "px";
+
+            cursorGlow.style.top =
+                event.clientY + "px";
+
+            cursorGlow.style.opacity =
+                "1";
+
+        }
+    );
+
+
+    document.addEventListener(
+        "mouseleave",
+        () => {
+
+            cursorGlow.style.opacity =
+                "0";
+
+        }
+    );
+
+
+
+    /* =====================================================
+       SMOOTH ACTIVE NAV
+    ====================================================== */
+
+    const sections =
+        document.querySelectorAll("section[id]");
+
+
+    const navigationLinks =
+        document.querySelectorAll(
+            ".nav-links a"
+        );
+
+
+    window.addEventListener(
+        "scroll",
+        () => {
+
+            let currentSection = "";
+
+            sections.forEach(
+                section => {
+
+                    const sectionTop =
+                        section.offsetTop - 180;
+
+                    if (
+                        window.scrollY >=
+                        sectionTop
+                    ) {
+
+                        currentSection =
+                            section.getAttribute(
+                                "id"
+                            );
+
+                    }
 
                 }
             );
 
-        },
 
-        {
-            threshold: .8
-        }
+            navigationLinks.forEach(
+                link => {
 
-    );
+                    link.classList.remove(
+                        "active"
+                    );
 
+                    if (
+                        link.getAttribute("href") ===
+                        "#" + currentSection
+                    ) {
 
-counters.forEach(
-    counter => {
+                        link.classList.add(
+                            "active"
+                        );
 
-        counterObserver.observe(
-            counter
-        );
-
-    }
-);
-
-
-
-/* =========================================================
-   CARD TILT
-========================================================= */
-
-const cards =
-    document.querySelectorAll(
-        ".capability, .education-card, .tool"
-    );
-
-
-cards.forEach(
-    card => {
-
-
-        card.addEventListener(
-            "mousemove",
-            e => {
-
-                const rect =
-                    card.getBoundingClientRect();
-
-
-                const x =
-                    e.clientX -
-                    rect.left;
-
-
-                const y =
-                    e.clientY -
-                    rect.top;
-
-
-                const centerX =
-                    rect.width / 2;
-
-
-                const centerY =
-                    rect.height / 2;
-
-
-                const rotateX =
-                    ((y - centerY)
-                    / centerY) * -3;
-
-
-                const rotateY =
-                    ((x - centerX)
-                    / centerX) * 3;
-
-
-                card.style.transform =
-                    `perspective(700px)
-                     rotateX(${rotateX}deg)
-                     rotateY(${rotateY}deg)
-                     translateY(-5px)`;
-
-            }
-        );
-
-
-        card.addEventListener(
-            "mouseleave",
-            () => {
-
-                card.style.transform =
-                    "";
-
-            }
-        );
-
-    }
-);
-
-
-
-/* =========================================================
-   ACTIVE NAVIGATION
-========================================================= */
-
-const sections =
-    document.querySelectorAll(
-        "main section"
-    );
-
-
-const navItems =
-    document.querySelectorAll(
-        ".nav-links a"
-    );
-
-
-window.addEventListener(
-    "scroll",
-    () => {
-
-
-        let current = "";
-
-
-        sections.forEach(
-            section => {
-
-                const sectionTop =
-                    section.offsetTop - 220;
-
-
-                if (
-                    window.scrollY >=
-                    sectionTop
-                ) {
-
-                    current =
-                        section.id;
+                    }
 
                 }
+            );
 
-            }
+        }
+    );
+
+
+
+    /* =====================================================
+       IMAGE PARALLAX
+    ====================================================== */
+
+    const visualCard =
+        document.querySelector(
+            ".visual-card"
         );
 
 
-        navItems.forEach(
+    window.addEventListener(
+        "scroll",
+        () => {
+
+            if (
+                window.innerWidth > 900 &&
+                visualCard
+            ) {
+
+                const scroll =
+                    window.scrollY;
+
+                const translate =
+                    Math.min(
+                        scroll * .04,
+                        25
+                    );
+
+                visualCard.style.transform =
+                    `translateY(${translate}px)`;
+
+            }
+
+        }
+    );
+
+
+
+    /* =====================================================
+       PREVENT BROKEN EXTERNAL LINKS
+       FOR EMPTY LINK PLACEHOLDERS
+    ====================================================== */
+
+    document
+        .querySelectorAll(
+            'a[href="https://www.linkedin.com/"]'
+        )
+        .forEach(
             link => {
 
-                link.style.color = "";
+                link.addEventListener(
+                    "click",
+                    () => {
 
+                        /*
+                         Replace this LinkedIn URL
+                         with your actual profile URL.
+                        */
 
-                if (
-                    link.getAttribute("href")
-                    === "#" + current
-                ) {
-
-                    link.style.color =
-                        "var(--sage-dark)";
-
-                }
+                    }
+                );
 
             }
         );
-
-    }
-);
 
 
 </script>
