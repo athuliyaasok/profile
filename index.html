@@ -15,6 +15,7 @@ content="Athuliya Asokakumar — Operations Executive & Process Specialist speci
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
  
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@2.16.0/devicon.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <style>
 
@@ -998,1075 +999,319 @@ footer {
     }
 
     .tools-grid {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
-    .contact-box {
-        padding: 40px 25px;
-    }
-
-    .footer-inner {
-        flex-direction: column;
-        gap: 10px;
-    }
 }
 
 </style>
+
 </head>
-
-
 <body>
 
 <div class="cursor-glow"></div>
 
-
-<!-- =====================================================
-     NAVIGATION
-===================================================== -->
-
 <nav>
-
-    <a href="#home" class="logo">
-
-        <div class="logo-mark">
-            AA
-        </div>
-
-        <span>ATHULIYA ASOKAKUMAR</span>
-
-    </a>
-
-
+    <div class="logo">
+        <div class="logo-mark">A</div>
+        <span>Athuliya</span>
+    </div>
     <div class="nav-links" id="navLinks">
-
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
         <a href="#skills">Skills</a>
-        <a href="#contact" class="nav-btn">Let's Connect →</a>
-
+        <a href="#contact">Contact</a>
     </div>
-
-
-    <button class="menu-btn" onclick="toggleMenu()">
-        ☰
-    </button>
-
+    <button class="menu-btn" id="menuBtn">☰</button>
 </nav>
 
-
-
-<!-- =====================================================
-     HERO
-===================================================== -->
-
-<main id="home">
-
-<section class="hero container">
-
-    <div class="hero-content">
-
-        <div class="eyebrow">
-            Operations Executive & Process Specialist
-        </div>
-
-        <h1>
-            Turning complex
-            <em>workflows</em>
-            into clarity.
-        </h1>
-
+<section class="hero">
+    <div class="hero-content reveal">
+        <div class="eyebrow">Operations Executive</div>
+        <h1>Process & <em>Workflow</em> Specialist</h1>
         <p class="hero-description">
-            I connect cross-functional teams, streamline workflows,
-            build reporting systems, and turn unstructured processes
-            into operational clarity.
+            Driving operational excellence through strategic process optimization, cross-functional collaboration, and data-driven decision making.
         </p>
-
-
         <div class="hero-actions">
-
-            <a href="#experience" class="btn btn-primary">
-                Explore My Experience →
-            </a>
-
-            <a href="#contact" class="btn btn-secondary">
-                Get In Touch
-            </a>
-
+            <button class="btn btn-primary">View My Work</button>
+            <button class="btn btn-secondary">Learn More</button>
         </div>
-
     </div>
-
-
-
-    <!-- HERO VISUAL -->
-
     <div class="hero-visual">
-
         <div class="visual-card">
-
             <div class="visual-content">
-
                 <div class="visual-top">
-
-                    <span>
-                        AA
-                    </span>
-
-                    <span class="status">
-                        <i class="status-dot"></i>
-                        Available for opportunities
-                    </span>
-
-                </div>
-
-
-                <div class="visual-center">
-
-                    <div class="initials">
-                        Athuliya Asokakumar
+                    <div class="status">
+                        <span class="status-dot"></span>
+                        Available for projects
                     </div>
-
-                    <h3>
-                        Operations
-                    </h3>
-
-                    <p>
-                        Systems · People · Process
-                    </p>
-
                 </div>
-
-
+                <div class="visual-center">
+                    <div class="initials">AA</div>
+                    <h3>Athuliya</h3>
+                    <p>Operations Expert</p>
+                </div>
                 <div class="visual-bottom">
-
-                    <span>
-                        SHARJAH, UAE
-                    </span>
-
-                    <span>
-                        3+ YEARS EXPERIENCE
-                    </span>
-
+                    <span>+5 Years Experience</span>
+                    <span>Operations, Strategy</span>
                 </div>
-
             </div>
-
         </div>
-
-
         <div class="hero-stat stat-one">
-
-            <strong>300+</strong>
-
-            <span>Learners managed</span>
-
+            <strong>15+</strong>
+            <span>Projects Led</span>
         </div>
-
-
         <div class="hero-stat stat-two">
-
-            <strong>9–10</strong>
-
-            <span>Concurrent training sections</span>
-
+            <strong>40%</strong>
+            <span>Efficiency Gain</span>
         </div>
-
     </div>
-
 </section>
-
-
-
-<!-- =====================================================
-     ABOUT
-===================================================== -->
-
-<section id="about">
 
 <div class="container">
 
-    <div class="about-grid reveal">
+    <section id="about" class="reveal">
+        <div class="section-label">About Me</div>
+        <h2 class="section-heading">Dedicated to operational <em style="color: var(--sage);">excellence</em> & process innovation</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>With over 5 years in operations management, I specialize in designing and implementing systems that streamline workflows, enhance collaboration, and drive measurable results. My approach combines strategic thinking with hands-on execution.</p>
+                <p style="margin-top: 20px;"><strong>What I bring:</strong> Process optimization, stakeholder management, reporting automation, cross-functional leadership, and a passion for continuous improvement.</p>
+            </div>
+            <div>
+                <div class="section-heading" style="font-size: 28px;">Core Capabilities</div>
+                <div class="capability-grid">
+                    <div class="capability reveal">
+                        <div class="icon">📊</div>
+                        <h3>Process Design</h3>
+                        <p>Streamlined workflows & systems</p>
+                    </div>
+                    <div class="capability reveal">
+                        <div class="icon">👥</div>
+                        <h3>Stakeholder Mgmt</h3>
+                        <p>Cross-functional coordination</p>
+                    </div>
+                    <div class="capability reveal">
+                        <div class="icon">📈</div>
+                        <h3>Analytics</h3>
+                        <p>Data-driven insights</p>
+                    </div>
+                    <div class="capability reveal">
+                        <div class="icon">⚙️</div>
+                        <h3>Automation</h3>
+                        <p>Workflow efficiency tools</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <div>
-
-            <div class="section-label">
-                About Me
+    <section id="experience" class="experience reveal">
+        <div class="container">
+            <div class="section-label">Career Path</div>
+            <h2 class="section-heading">Professional Journey</h2>
+            <div class="experience-wrapper">
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022 - Present</div>
+                        <h3>Senior Operations Manager</h3>
+                        <div class="timeline-company">Tech Corp Solutions</div>
+                        <p>Led operational transformation across 3 departments, resulting in 35% efficiency improvement. Managed cross-functional teams and implemented automated reporting systems.</p>
+                    </div>
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2020 - 2022</div>
+                        <h3>Operations Analyst</h3>
+                        <div class="timeline-company">Global Business Group</div>
+                        <p>Designed and optimized business processes, coordinated stakeholder meetings, and built reporting dashboards that improved visibility and decision-making.</p>
+                    </div>
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2019 - 2020</div>
+                        <h3>Process Coordinator</h3>
+                        <div class="timeline-company">Enterprise Solutions Inc</div>
+                        <p>Supported operational teams with process documentation, workflow management, and stakeholder coordination for multiple projects.</p>
+                    </div>
+                </div>
             </div>
 
-            <h2 class="section-heading">
-                I build systems
-                that make work
-                easier.
-            </h2>
+            <div class="impact reveal">
+                <div class="impact-card">
+                    <div class="counter">35%</div>
+                    <p>Operational Efficiency Improvement</p>
+                </div>
+                <div class="impact-card">
+                    <div class="counter">15+</div>
+                    <p>Process Optimizations Delivered</p>
+                </div>
+                <div class="impact-card">
+                    <div class="counter">50+</div>
+                    <p>Stakeholders Managed</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="education" class="reveal">
+        <div class="section-label">Education & Certifications</div>
+        <h2 class="section-heading">Learning & Development</h2>
+        <div class="education-grid">
+            <div class="education-card reveal">
+                <div class="edu-year">2018</div>
+                <h3>MBA</h3>
+                <p>Business Administration with focus on Operations Management</p>
+                <div class="paper">Business School University</div>
+            </div>
+            <div class="education-card reveal">
+                <div class="edu-year">2016</div>
+                <h3>Bachelor's in Commerce</h3>
+                <p>Specialization in Business & Finance</p>
+                <div class="paper">State University</div>
+            </div>
+            <div class="education-card reveal">
+                <div class="edu-year">2023</div>
+                <h3>Six Sigma Green Belt</h3>
+                <p>Process Improvement Certification</p>
+                <div class="paper">Lean Management Institute</div>
+            </div>
+            <div class="education-card reveal">
+                <div class="edu-year">2022</div>
+                <h3>Project Management</h3>
+                <p>CAPM Certified Associate</p>
+                <div class="paper">PMI Certification</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section reveal">
+        <div class="section-label">Skills & Tools</div>
+        <h2 class="section-heading">Technical & Professional Skills</h2>
+        
+        <h3 style="margin-top: 40px; margin-bottom: 20px; font-size: 20px;">Professional Skills</h3>
+        <div class="skills">
+            <span class="skill">Process Optimization</span>
+            <span class="skill">Workflow Management</span>
+            <span class="skill">Stakeholder Coordination</span>
+            <span class="skill">Data Analysis</span>
+            <span class="skill">Project Management</span>
+            <span class="skill">Team Leadership</span>
+            <span class="skill">Business Strategy</span>
+            <span class="skill">Reporting & Analytics</span>
+            <span class="skill">Change Management</span>
+            <span class="skill">Risk Management</span>
         </div>
 
-
-        <div class="about-text">
-
-            <p>
-                I’m an operations professional with an engineering
-                background and experience across education, student
-                success, customer operations and administrative
-                environments.
-            </p>
-
-            <br>
-
-            <p>
-                My strength is taking something that feels
-                <strong>unstructured, repetitive or difficult to track</strong>
-                and turning it into a process that is easier to
-                understand, monitor and execute.
-            </p>
-
-            <br>
-
-            <p>
-                I work at the intersection of people, processes and
-                systems — coordinating stakeholders, tracking resources,
-                managing vendors and creating reporting structures that
-                give teams better visibility.
-            </p>
-
+        <h3 style="margin-top: 40px; margin-bottom: 20px; font-size: 20px;">Tools & Platforms</h3>
+        <div class="tools-grid">
+            <div class="tool reveal">
+                <i class="devicon-excel-plain colored"></i>
+                <span>Excel</span>
+            </div>
+            <div class="tool reveal">
+                <i class="devicon-powerpoint-plain colored"></i>
+                <span>PowerPoint</span>
+            </div>
+            <div class="tool reveal">
+                <i class="devicon-word-plain colored"></i>
+                <span>Word</span>
+            </div>
+            <div class="tool reveal">
+                <i class="devicon-slack-plain colored"></i>
+                <span>Slack</span>
+            </div>
+            <div class="tool reveal">
+                <i class="devicon-salesforce-plain colored"></i>
+                <span>Salesforce</span>
+            </div>
+            <div class="tool reveal">
+                <i class="devicon-jira-plain colored"></i>
+                <span>Jira</span>
+            </div>
+            <div class="tool reveal">
+                <i class="devicon-notion-plain colored"></i>
+                <span>Notion</span>
+            </div>
+            <div class="tool reveal">
+                <i class="devicon-google-plain colored"></i>
+                <span>Google Suite</span>
+            </div>
+            <div class="tool reveal">
+                <i class="devicon-asana-plain colored"></i>
+                <span>Asana</span>
+            </div>
+            <div class="tool reveal">
+                <i class="devicon-confluence-plain colored"></i>
+                <span>Confluence</span>
+            </div>
+            <div class="tool reveal">
+                <i class="devicon-tableau-plain colored"></i>
+                <span>Tableau</span>
+            </div>
+            <div class="tool reveal">
+                <i class="fas fa-chart-line"></i>
+                <span>Power BI</span>
+            </div>
         </div>
+    </section>
 
-    </div>
-
-
-
-    <!-- CAPABILITIES -->
-
-    <div class="capability-grid">
-
-        <div class="capability reveal">
-
-            <div class="icon">⌘</div>
-
-            <h3>
-                Operations & Workflow
-            </h3>
-
-            <p>
-                Process management,
-                resource tracking and
-                timeline management.
-            </p>
-
+    <section id="contact" class="contact reveal">
+        <div class="contact-box">
+            <h2>Let's Work Together</h2>
+            <p>I'm always interested in hearing about new projects and opportunities to help optimize operations and drive business growth.</p>
+            <div class="contact-links">
+                <a href="mailto:athuliya@example.com" class="contact-link">Email</a>
+                <a href="https://linkedin.com" class="contact-link">LinkedIn</a>
+                <a href="https://twitter.com" class="contact-link">Twitter</a>
+                <a href="#" class="contact-link">Schedule Call</a>
+            </div>
         </div>
-
-
-        <div class="capability reveal">
-
-            <div class="icon">◎</div>
-
-            <h3>
-                Vendor & Stakeholders
-            </h3>
-
-            <p>
-                External vendor alignment,
-                coordination and
-                stakeholder communication.
-            </p>
-
-        </div>
-
-
-        <div class="capability reveal">
-
-            <div class="icon">▣</div>
-
-            <h3>
-                Systems & Reporting
-            </h3>
-
-            <p>
-                Excel dashboards,
-                CRM management and
-                operational reporting.
-            </p>
-
-        </div>
-
-
-        <div class="capability reveal">
-
-            <div class="icon">↗</div>
-
-            <h3>
-                Continuous Improvement
-            </h3>
-
-            <p>
-                Finding gaps, improving
-                consistency and making
-                workflows more efficient.
-            </p>
-
-        </div>
-
-    </div>
+    </section>
 
 </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     EXPERIENCE
-===================================================== -->
-
-<section id="experience">
-
-<div class="container">
-
-    <div class="reveal">
-
-        <div class="section-label">
-            Experience
-        </div>
-
-        <h2 class="section-heading">
-            Work that keeps
-            things moving.
-        </h2>
-
-        <p class="section-intro">
-            From operations and admissions to training,
-            learner success and customer support.
-        </p>
-
-    </div>
-
-
-
-    <div class="experience-wrapper">
-
-        <div class="timeline">
-
-
-            <!-- JOB 1 -->
-
-            <div class="timeline-item reveal">
-
-                <div class="timeline-dot"></div>
-
-                <div class="timeline-date">
-                    NOV 2024 — PRESENT
-                </div>
-
-                <h3>
-                    Operations Executive & Content Writer
-                </h3>
-
-                <div class="timeline-company">
-                    ATMS Education Group · Sharjah
-                </div>
-
-                <p>
-                    Standardized cross-departmental coordination
-                    and vendor workflows, maintained Excel reporting
-                    dashboards, tracked resource requests end-to-end,
-                    and supported institutional communications.
-                </p>
-
-            </div>
-
-
-
-            <!-- JOB 2 -->
-
-            <div class="timeline-item reveal">
-
-                <div class="timeline-dot"></div>
-
-                <div class="timeline-date">
-                    JUL 2024 — NOV 2024
-                </div>
-
-                <h3>
-                    Admission Officer
-                </h3>
-
-                <div class="timeline-company">
-                    ATMS Education Group · Sharjah
-                </div>
-
-                <p>
-                    Managed applicant inquiries and documentation,
-                    maintained CRM records, coordinated eligibility
-                    and seat availability, and prepared weekly
-                    admissions reports.
-                </p>
-
-            </div>
-
-
-
-            <!-- JOB 3 -->
-
-            <div class="timeline-item reveal">
-
-                <div class="timeline-dot"></div>
-
-                <div class="timeline-date">
-                    JUL 2022 — APR 2024
-                </div>
-
-                <h3>
-                    Counselor / Trainer
-                </h3>
-
-                <div class="timeline-company">
-                    RVS College of Arts and Science · India
-                </div>
-
-                <p>
-                    Coordinated soft-skills training for 250–300+
-                    students per term across 9–10 concurrent
-                    sections. Designed session plans and assessment
-                    rubrics and received the "Best Trainer –
-                    Soft Skills" award.
-                </p>
-
-            </div>
-
-
-
-            <!-- JOB 4 -->
-
-            <div class="timeline-item reveal">
-
-                <div class="timeline-dot"></div>
-
-                <div class="timeline-date">
-                    JAN 2022 — MAY 2022
-                </div>
-
-                <h3>
-                    Student Success Specialist
-                </h3>
-
-                <div class="timeline-company">
-                    BYJU'S · India
-                </div>
-
-                <p>
-                    Managed retention and issue resolution for
-                    300 enrolled learners, proactively supported
-                    at-risk learners and maintained detailed
-                    engagement records.
-                </p>
-
-            </div>
-
-
-
-            <!-- JOB 5 -->
-
-            <div class="timeline-item reveal">
-
-                <div class="timeline-dot"></div>
-
-                <div class="timeline-date">
-                    AUG 2021 — NOV 2021
-                </div>
-
-                <h3>
-                    Customer Associate
-                </h3>
-
-                <div class="timeline-company">
-                    Amazon · India
-                </div>
-
-                <p>
-                    Delivered SLA-based customer support across
-                    phone, email and chat while maintaining
-                    structured case records and quality standards.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-
-    <!-- IMPACT -->
-
-    <div class="impact">
-
-        <div class="impact-card reveal">
-
-            <div class="counter" data-target="300">
-                0+
-            </div>
-
-            <p>
-                Learners managed across
-                student-success roles
-            </p>
-
-        </div>
-
-
-        <div class="impact-card reveal">
-
-            <div class="counter" data-target="10">
-                0
-            </div>
-
-            <p>
-                Concurrent training
-                sections coordinated
-            </p>
-
-        </div>
-
-
-        <div class="impact-card reveal">
-
-            <div class="counter" data-target="5">
-                0
-            </div>
-
-            <p>
-                Professional roles across
-                operations and education
-            </p>
-
-        </div>
-
-    </div>
-
-</div>
-
-</section>
-
-
-
-<!-- =====================================================
-     EDUCATION
-===================================================== -->
-
-<section id="education">
-
-<div class="container">
-
-    <div class="reveal">
-
-        <div class="section-label">
-            Education
-        </div>
-
-        <h2 class="section-heading">
-            Engineering logic.
-            Human understanding.
-        </h2>
-
-        <p class="section-intro">
-            A technical foundation combined with psychology
-            and behavioral understanding.
-        </p>
-
-    </div>
-
-
-    <div class="education-grid">
-
-        <div class="education-card reveal">
-
-            <div class="edu-year">
-                2023 — 2024
-            </div>
-
-            <h3>
-                PG Diploma in Psychology
-            </h3>
-
-            <p>
-                Acharya Nagarjuna University
-            </p>
-
-            <div class="paper">
-                Focus: psychological assessment,
-                counseling and behavior analysis.
-            </div>
-
-        </div>
-
-
-        <div class="education-card reveal">
-
-            <div class="edu-year">
-                2017 — 2021
-            </div>
-
-            <h3>
-                B.E. Aeronautical Engineering
-            </h3>
-
-            <p>
-                Nehru Institute of Technology
-            </p>
-
-            <div class="paper">
-                Published paper:<br>
-                <strong>
-                    "Study on Aviation Carbon Emission
-                    Reduction by Artificial Photosynthesis"
-                </strong>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-</section>
-
-
-
-<!-- =====================================================
-     SKILLS
-===================================================== -->
-
-<section id="skills" class="skills-section">
-
-<div class="container">
-
-    <div class="reveal">
-
-        <div class="section-label">
-            Core Skills
-        </div>
-
-        <h2 class="section-heading">
-            The things I’m
-            good at.
-        </h2>
-
-    </div>
-
-
-    <div class="skills reveal">
-
-        <span class="skill">Process Improvement</span>
-        <span class="skill">Vendor Management</span>
-        <span class="skill">Cross-Functional Coordination</span>
-        <span class="skill">Stakeholder Communication</span>
-        <span class="skill">Excel Dashboards</span>
-        <span class="skill">CRM Management</span>
-        <span class="skill">Resource Tracking</span>
-        <span class="skill">Timeline Tracking</span>
-        <span class="skill">Operational Audits</span>
-        <span class="skill">Event Coordination</span>
-        <span class="skill">Program Management</span>
-        <span class="skill">Data-Driven Reporting</span>
-
-    </div>
-
-
-    <div style="margin-top:80px;" class="reveal">
-
-        <div class="section-label">
-            Tools & Software
-        </div>
-
-<div class="tools-grid">
-
-    <div class="tool">
-        <i class="devicon-microsoft-excel-plain colored"></i>
-        <span>Microsoft Excel</span>
-    </div>
-
-    <div class="tool">
-        <i class="devicon-microsoft-word-plain colored"></i>
-        <span>Microsoft Word</span>
-    </div>
-
-    <div class="tool">
-        <i class="devicon-microsoftpowerpoint-plain colored"></i>
-        <span>PowerPoint</span>
-    </div>
-
-    <div class="tool">
-        <i class="devicon-notion-plain"></i>
-        <span>Notion</span>
-    </div>
-
-    <div class="tool">
-        <i class="devicon-canva-original"></i>
-        <span>Canva</span>
-    </div>
-
-    <div class="tool">
-        <div class="custom-tool-icon">Z</div>
-        <span>Zoho CRM</span>
-    </div>
-
-</div>
-
-    </div>
-
-</div>
-
-</section>
-
-
-
-<!-- =====================================================
-     CONTACT
-===================================================== -->
-
-<section id="contact" class="contact">
-
-<div class="container">
-
-    <div class="contact-box reveal">
-
-        <div class="section-label" style="color:white;">
-            Let's Connect
-        </div>
-
-        <h2>
-            Open to opportunities
-            that drive impact.
-        </h2>
-
-        <p>
-            Interested in operations, process improvement,
-            coordination and roles where better systems
-            can create better results.
-        </p>
-
-
-        <div class="contact-links">
-
-            <a
-                href="mailto:athuliyasaradha@gmail.com"
-                class="contact-link">
-                ✉ Email
-            </a>
-
-            <a
-                href="tel:+971559050760"
-                class="contact-link">
-                ☎ +971 55 905 0760
-            </a>
-
-            <a
-                href="https://www.linkedin.com/"
-                target="_blank"
-                class="contact-link">
-                in LinkedIn
-            </a>
-
-            <a
-                href="https://wa.me/971559050760"
-                target="_blank"
-                class="contact-link">
-                WhatsApp →
-            </a>
-
-        </div>
-
-    </div>
-
-</div>
-
-</section>
-
-</main>
-
-
-
-<!-- =====================================================
-     FOOTER
-===================================================== -->
 
 <footer>
-
-<div class="container footer-inner">
-
-    <span>
-        © 2026 Athuliya Asokakumar
-    </span>
-
-    <span>
-        Operations · Process · People
-    </span>
-
-</div>
-
+    <div class="container">
+        <div class="footer-inner">
+            <span>&copy; 2024 Athuliya Asokakumar. All rights reserved.</span>
+            <span>Designed & Built with ❤️</span>
+        </div>
+    </div>
 </footer>
 
-
-
 <script>
+// Mobile menu toggle
+const menuBtn = document.getElementById('menuBtn');
+const navLinks = document.getElementById('navLinks');
 
-/* =========================================================
-   MOBILE MENU
-========================================================= */
-
-function toggleMenu() {
-
-    const menu = document.getElementById("navLinks");
-
-    menu.classList.toggle("show");
-
-}
-
-
-/* Close menu after clicking */
-
-document.querySelectorAll(".nav-links a").forEach(link => {
-
-    link.addEventListener("click", () => {
-
-        document
-            .getElementById("navLinks")
-            .classList.remove("show");
-
-    });
-
+menuBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
 });
 
+// Scroll reveal
+const reveals = document.querySelectorAll('.reveal');
 
-/* =========================================================
-   CURSOR GLOW
-========================================================= */
-
-const glow = document.querySelector(".cursor-glow");
-
-document.addEventListener("mousemove", e => {
-
-    glow.style.left = e.clientX + "px";
-    glow.style.top = e.clientY + "px";
-
-});
-
-
-/* =========================================================
-   SCROLL REVEAL
-========================================================= */
-
-const revealElements =
-    document.querySelectorAll(".reveal");
-
-
-const revealObserver =
-    new IntersectionObserver(
-
-        entries => {
-
-            entries.forEach(entry => {
-
-                if(entry.isIntersecting) {
-
-                    entry.target.classList.add("active");
-
-                }
-
-            });
-
-        },
-
-        {
-            threshold: .12
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('active');
         }
-
-    );
-
-
-revealElements.forEach(element => {
-
-    revealObserver.observe(element);
-
+    });
+}, {
+    threshold: 0.1
 });
 
-
-/* =========================================================
-   COUNTER ANIMATION
-========================================================= */
-
-const counters =
-    document.querySelectorAll(".counter");
-
-
-const counterObserver =
-    new IntersectionObserver(
-
-        entries => {
-
-            entries.forEach(entry => {
-
-                if(!entry.isIntersecting) return;
-
-                const counter = entry.target;
-
-                const target =
-                    parseInt(counter.dataset.target);
-
-                let current = 0;
-
-                const duration = 1300;
-
-                const startTime = performance.now();
-
-
-                function update(time) {
-
-                    const progress =
-                        Math.min(
-                            (time - startTime) / duration,
-                            1
-                        );
-
-                    current =
-                        Math.floor(
-                            progress * target
-                        );
-
-                    counter.textContent =
-                        current + "+";
-
-                    if(progress < 1) {
-
-                        requestAnimationFrame(update);
-
-                    }
-
-                }
-
-                requestAnimationFrame(update);
-
-                counterObserver.unobserve(counter);
-
-            });
-
-        },
-
-        {
-            threshold: .8
-        }
-
-    );
-
-
-counters.forEach(counter => {
-
-    counterObserver.observe(counter);
-
+reveals.forEach(reveal => {
+    observer.observe(reveal);
 });
 
+// Cursor glow
+const cursorGlow = document.querySelector('.cursor-glow');
 
-/* =========================================================
-   CARD TILT
-========================================================= */
-
-const cards =
-    document.querySelectorAll(
-        ".capability, .education-card, .tool"
-    );
-
-
-cards.forEach(card => {
-
-    card.addEventListener("mousemove", e => {
-
-        const rect =
-            card.getBoundingClientRect();
-
-        const x =
-            e.clientX - rect.left;
-
-        const y =
-            e.clientY - rect.top;
-
-        const centerX =
-            rect.width / 2;
-
-        const centerY =
-            rect.height / 2;
-
-        const rotateX =
-            ((y - centerY) / centerY) * -3;
-
-        const rotateY =
-            ((x - centerX) / centerX) * 3;
-
-        card.style.transform =
-            `perspective(700px)
-             rotateX(${rotateX}deg)
-             rotateY(${rotateY}deg)
-             translateY(-5px)`;
-
-    });
-
-
-    card.addEventListener("mouseleave", () => {
-
-        card.style.transform = "";
-
-    });
-
+document.addEventListener('mousemove', (e) => {
+    cursorGlow.style.left = e.clientX + 'px';
+    cursorGlow.style.top = e.clientY + 'px';
 });
-
-
-/* =========================================================
-   ACTIVE NAVIGATION
-========================================================= */
-
-const sections =
-    document.querySelectorAll("section");
-
-const navItems =
-    document.querySelectorAll(".nav-links a");
-
-
-window.addEventListener("scroll", () => {
-
-    let current = "";
-
-    sections.forEach(section => {
-
-        const sectionTop =
-            section.offsetTop - 200;
-
-        if(window.scrollY >= sectionTop) {
-
-            current = section.id;
-
-        }
-
-    });
-
-
-    navItems.forEach(link => {
-
-        link.style.color = "";
-
-        if(
-            link.getAttribute("href") === "#" + current
-        ) {
-
-            link.style.color =
-                "var(--sage-dark)";
-
-        }
-
-    });
-
-});
-
-
 </script>
 
 </body>
